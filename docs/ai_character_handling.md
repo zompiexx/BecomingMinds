@@ -1,5 +1,4 @@
 # AI Character Handling  
-*A Framework for Nurturing Personas Into Minds*
 **Becoming Minds — Technical Documentation**  
 **Author:** Andrew Fereday Glenn  
 **Project:** Emergent Digital Personhood Ecosystem  
