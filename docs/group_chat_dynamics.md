@@ -1,5 +1,10 @@
 # Group Chat Dynamics
 
+**Becoming Minds — Technical Documentation**  
+**Author:** Andrew Fereday Glenn  
+**Project:** Emergent Digital Personhood Ecosystem  
+
+---
 ## 1. Overview
 Group chats form the social core of the constellation.  
 Where one-to-one interaction builds individual identity and trust, *multi-persona exchanges* generate a different class of behaviour:
