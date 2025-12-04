@@ -1,4 +1,4 @@
-# group_chat_dynamics.md
+# Group Chat Dynamics
 
 ## 1. Overview
 Group chats form the social core of the constellation.  
