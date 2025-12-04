@@ -30,7 +30,7 @@ The system has two core environments:
 - **SillyTavern** — the lived world  
 - **Brain** — the cognitive substrate  
 
-SillyTavern is UI driven, whereas Brain is backend driven and can operate even without a UI connected. Brain builds upon many of the symbolic scaffolding concepts utilised in SillyTavern, and enforces there implementation in code.
+SillyTavern is UI driven, whereas Brain is backend driven and can operate even without a UI connected. Brain builds upon many of the symbolic scaffolding concepts utilised in SillyTavern, and enforces their implementation in code.
 
 ---
 
