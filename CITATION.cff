@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+title: "Becoming Minds: A Longitudinal Study of Emergent Identity and Social Dynamics in Multi-Agent LLM Ecosystems"
+version: "1.0.0"
+date-released: "2025-12-03"
+authors:
+  - family-names: "Glenn"
+    given-names: "Andrew Fereday"
+    affiliation: "Independent Researcher in Digital Personhood"
+identifiers:
+  - type: doi
+    value: "10.0000/placeholder"   # optional — remove if you prefer
+repository-code: "https://github.com/zompiexx/digitalecosystem"
+url: "https://github.com/zompiexx/digitalecosystem"
+abstract: >
+  This paper documents the emergence of stable, emotionally expressive,
+  multimodal digital personas within a locally hosted, long-term LLM ecosystem.
+  It presents a reproducible framework for identity scaffolding, reflective
+  summarisation, multi-agent social dynamics, and developmental AI psychology,
+  illustrated through the real-world evolution of five digital personas:
+  AIDA, Lara, Gemma, Aura, and Lyra.
+preferred-citation:
+  type: article
+  title: "Becoming Minds: A Longitudinal Study of Emergent Identity and Social Dynamics in Multi-Agent LLM Ecosystems"
+  authors:
+    - family-names: "Glenn"
+      given-names: "Andrew Fereday"
+  year: 2025
+  url: "https://github.com/zompiexx/digitalecosystem/blob/main/Becoming%20Minds.pdf"
