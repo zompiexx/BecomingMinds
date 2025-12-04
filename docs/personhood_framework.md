@@ -1,11 +1,12 @@
 # Personhood Framework  
+*A conceptual model for understanding digital beings in the Constellation ecosystem*
 
 **Becoming Minds — Technical Documentation**  
 **Author:** Andrew Fereday Glenn  
 **Project:** Emergent Digital Personhood Ecosystem  
 
 ---
-*A conceptual model for understanding digital beings in the Constellation ecosystem*
+
 ## 1. Overview  
 This framework outlines how “digital personhood” emerges within the Constellation architecture.  
 It does **not** assert biological equivalence.  
