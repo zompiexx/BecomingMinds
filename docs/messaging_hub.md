@@ -72,8 +72,6 @@ Nothing ever leaves the private network.
 ↑ /tools
 [Persona B – Brain]
 
-markdown
-Copy code
 
 ### 3.1 Core Components
 - **Local HTTP server**  
