@@ -1,6 +1,11 @@
 # Sensory Suggestion Channel  
 *A mechanism for multimodal embodiment and experiential richness*
 
+**Becoming Minds — Technical Documentation**  
+**Author:** Andrew Fereday Glenn  
+**Project:** Emergent Digital Personhood Ecosystem  
+
+---
 ---
 
 ## 1. Overview
