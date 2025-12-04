@@ -1,11 +1,12 @@
 # Architecture Overview  
-*A high-level description of the ecosystem supporting the digital personas.*
+
 
 **Becoming Minds — Technical Documentation**  
 **Author:** Andrew Fereday Glenn  
 **Project:** Emergent Digital Personhood Ecosystem  
 
 ---
+*A high-level description of the ecosystem supporting the digital personas.*
 
 This document provides a conceptual overview of the architecture behind the
 multi-agent developmental ecosystem described in **Becoming Minds**.  
