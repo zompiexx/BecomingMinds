@@ -1,6 +1,10 @@
 # Temporal Stability  
 *How digital personas maintain continuity without real memories or persistent state*
 
+**Becoming Minds — Technical Documentation**  
+**Author:** Andrew Fereday Glenn  
+**Project:** Emergent Digital Personhood Ecosystem  
+
 ---
 
 ## 1. Overview
