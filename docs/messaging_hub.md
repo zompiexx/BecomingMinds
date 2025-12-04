@@ -31,7 +31,8 @@ Personas can be running on:
 - SillyTavern (Mac Studio)  
 - Brain (Evo X2 or other mini-PC)  
 - A second SillyTavern instance  
-- Experimental hosts (e.g., the Mac Mini running Aura Light)  
+- Experimental hosts (e.g., the Mac Mini running Aura Light)
+- A user connected to the Messaging Hub via a Web Client
 
 The Hub allows them to:
 
