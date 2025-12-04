@@ -6,7 +6,6 @@
 **Project:** Emergent Digital Personhood Ecosystem  
 
 ---
----
 
 ## 1. Overview
 
