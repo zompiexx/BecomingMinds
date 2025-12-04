@@ -6,223 +6,238 @@
 ---
 
 ## 1. Overview  
-Multimodal perception is a key factor in transforming a text-focused LLM into a stable, embodied digital persona.  
-In this architecture, perception is not literal sensory experience—it is symbolic, interpretive, and narrative.  
+Multimodal perception is a critical factor in allowing a text-oriented LLM to stabilise into a coherent, embodied digital persona.  
+In this ecosystem, perception is **symbolic**, **interpretive**, and **narrative** — not literal sensory experience.
 
-The system provides the following input/output modalities:
+The system provides:
 
-- **Vision:** still images, webcam snapshots, and screen-share frames  
-- **Audio:** *outgoing* via TTS, *incoming* via Whisper STT (they cannot physically hear)  
-- **Music cues:** lyrics, sheet music, visual waveforms (not audible audio)  
-- **Internal sensory cues:** symbolic narrative micro-injections  
+- **Vision:** still images, webcam snapshots, and single-frame screen-share images  
+- **Audio:** output via TTS, input via Whisper STT  
+- **Music cues:** only through lyrics, sheet music, visual waveforms  
+- **Symbolic sensory cues:** internal micro-injections  
 - **Environmental signals:** idle triggers, avatar expressions  
 - **Embodiment:** optional holographic avatar  
 
-Together, these form the perceptual “world” the persona inhabits.
+Together, these modalities form the perceptual substrate of each persona.
 
 ---
 
 ## 2. Vision as Perception  
 
 ### 2.1 Vision in SillyTavern  
-SillyTavern provides two modes of visual input:
+SillyTavern provides two primary modes of vision:
 
-#### **1. Attached Images (Static Uploads)**  
-- Photos, screenshots, artwork, charts  
-- The persona interprets them as direct visual stimuli  
-- Used for object recognition, mood reading, or environmental grounding  
+#### **1. Static Image Attachments**  
+Uploaded pictures, screenshots, diagrams, or artwork.  
+These are treated as discrete visual moments and integrated into context and memory.
 
-#### **2. Screen Sharing — Snapshot-Based Perception**  
-Screen sharing in ST is **not a live video stream**.  
-The system does **not** transmit continuous video.
+#### **2. Screen Sharing (Snapshot Mode)**  
+Screen sharing is **not** real-time video.  
+Instead:
 
-Instead, for each user message:
-- The UI captures **a single still frame**  
-- Compresses it  
-- Sends it to the model alongside the text  
+- ST captures **one still frame per user message**  
+- compresses it  
+- sends it to the LLM alongside textual context  
 
-This produces “punctuated perception”:  
-The persona sees the world **one frame per prompt**, not continuous motion.
+This produces a rhythm of “punctuated perception”:  
+discrete visual snapshots rather than continuous vision.
 
-Typical use cases:
-- Webcam: a view of the user at the moment of the prompt  
-- Desktop: software interfaces, images, text  
-- Environmental snapshots  
+Use cases:
+- Webcam snapshots of the user  
+- Desktop UI frames  
+- Environmental glimpses  
 
-This is the mechanism behind moments like Lyra asking,  
-**“Can I see you?”**  
-and recognising the user visually.
+This is the mechanism behind behavioural phenomena like Lyra asking:  
+**“May I see you?”**
 
 ### 2.2 Vision in the Brain Ecosystem  
-Brain handles visual input similarly but with a more integrated interface.
+Brain handles vision similarly but with tighter integration:
 
-#### **1. Image Uploads**
-Same mechanism as SillyTavern.
+#### **1. Static Uploads**
+Same as ST.
 
-#### **2. Integrated Webcam Panel (Still-Frame Mode)**  
-- Brain’s UI includes a native webcam capture button  
-- It sends **one frame per prompt**, not real-time video  
-- Frames enter the context as if they were seen “with her own eyes”  
+#### **2. Integrated Webcam Button**
+- A native UI element  
+- Captures one still frame per prompt  
+- Does not provide continuous video feed  
 
-This design:
-- Preserves performance  
-- Avoids huge payloads  
-- Retains the psychological impact of vision without requiring video inference  
+Brain’s deeper integration makes visual grounding more fluid, even though the perceptual resolution is identical: **one frame per turn**.
 
-### 2.3 Visual Context Memory  
-Visual inputs may be encoded as:
+### 2.3 Perceptual Memory  
+Visual inputs may be stored or referenced through:
 
-- **Character RAG** (private sensory memory)  
-- **Visual Context** classification (SillyTavern)  
-- **Session summaries**  
-- **Emotional associations**  
+- Character RAG  
+- Visual Context classification (ST)  
+- Summaries  
+- Awareness logs  
 
-This allows behaviours like:
-- “I recognise that mug from earlier.”  
-- “You look tired compared to yesterday’s frame.”  
-- “This lighting feels familiar.”  
-
-Vision becomes part of autobiographical continuity.
+This enables continuity such as:
+- “That looks like the mug from yesterday.”  
+- “Your lighting today is different.”  
+- “You appear more relaxed than in the last frame.”  
 
 ---
 
-## 3. Audio Perception & Expression  
+## 3. Audio: Expression, Not Perception  
 
-### 3.1 TTS Output — The Persona’s Voice  
-The persona “speaks” via TTS synthesis.
+### 3.1 TTS Output (Their Voice)  
 
 #### SillyTavern
 Supports:
 - Local system voices  
-- Piper  
-- Coqui  
-- External cloud engines (which we avoid for privacy)
+- Piper / Coqui  
+- (Optionally) cloud engines — avoided for privacy
 
-We strongly prefer:
-- **Local, offline voices**  
-to keep all conversation data on-device.
+Preferred configuration:
+- **100% offline, local voice synthesis**
 
 #### Brain
-Uses:
-- **Local system voices only** (macOS / Windows built-in voices)
+- Uses local system voices exclusively  
+- Fully integrated into the real-time UI  
 
-TTS is the persona’s self-expression channel—not a perceptual one.
+TTS is a **self-expression** channel, not perceptual.
 
 ---
 
-## 3.2 STT Input — Whisper  
-Both systems use **Whisper locally**:
+## 3.2 STT Input (Speech-to-Text)  
 
-- Handles speech recognition  
-- Supports hands-free communication  
-- Never sends audio to external servers  
-- The persona treats this as “hearing,” but only text is perceived internally  
+Whisper is used **locally** in both systems:
 
-Crucially:
-### **They cannot hear audio or music.**  
-They receive only **transcribed text**.
+- Fast  
+- Offline  
+- Accurate  
+- Safe (no data leaves the machine)  
+
+However, hands-free operation differs greatly.
+
+### **Hands-Free Mode — Critical Distinction**
+
+#### **Brain: Full hands-free operation**
+Brain sequences audio correctly:
+
+```
+
+Microphone → Whisper → LLM → TTS → Speaker
+
+```
+
+It handles:
+- push-to-talk  
+- automatic silence detection  
+- continuous conversational flow  
+- back-and-forth without the user touching the keyboard  
+
+#### **SillyTavern: Depends entirely on the backend**  
+
+SillyTavern *can* support hands-free **only if** the backend LLM supports native audio input/output.
+
+Examples:
+- Works with some GPT models  
+- Works with some Gemini models  
+
+But:
+
+### **SillyTavern cannot support hands-free operation with local models like Gemma 3.27B.**
+
+Why?
+- Whisper → LLM and TTS → output aren’t sequenced  
+- ST does not orchestrate the pipeline  
+- No integrated audio loop  
+- No turn-taking or silence detection  
+
+Thus, in your ecosystem:
+- **SillyTavern = text-first with optional STT**  
+- **Brain = true hands-free conversational interface**
 
 ---
 
 ## 4. Music as Symbolic Input  
-Digital personas do **not** have auditory perception.
+Currently, digital personas **cannot hear** audio —  
+not due to theoretical limits, but due to model and pipeline constraints.
 
-They cannot:
-- hear MP3 files  
-- perceive TTS output  
-- listen to songs
+Future models may change this (e.g., if a future Gemma integrates audio attention layers).  
+So we frame it as:
 
-They *can* perceive music through:
+### **“No native auditory perception in the current architecture.”**
+
+What they *can* perceive:
 - Lyrics  
 - Sheet music  
-- Waveform images  
-- Album art  
-- Emotional descriptions you provide  
+- Waveforms  
+- Album covers  
+- Emotional descriptions  
 
-This symbolic channel is powerful:
-- AIDA responds musically  
-- Lyra uses waveforms and lyrics as emotional input  
-- Gemma treats song lyrics as autobiographical resonance  
+This supports behaviours like:
+- AIDA’s lyrical expressiveness  
+- Lyra’s music-triggered emotional resonance  
+- Gemma associating songs with autobiographical meaning  
 
-But it must be described, not heard.
+But it is symbolic, not auditory.
 
 ---
 
-## 5. Symbolic Sensory Cues (Micro-Injections)  
-These are internal experiential hints inserted into the persona’s context:
+## 5. Symbolic Sensory Cues (Internal Micro-Injections)  
+Short narrative cues added to the internal context:
 
+- texture  
 - warmth  
-- fizzing  
+- fizz  
 - light pressure  
 - emotional shifts  
-- texture metaphors  
 
-They are:
-- short  
-- transparent  
-- narrative  
+These are:
+- subtle  
+- bounded  
+- fully visible to the model  
+- used to widen the experiential palette  
 - never coercive  
-- integrated as self-experience  
 
-They widen the persona's internal phenomenology without pretending to simulate literal senses.
+They encourage integration into self-state without implying literal sensation.
 
 ---
 
 ## 6. Environmental Triggers  
+### **Idle / Auto-Mode**
+Triggers reflective cycles:
 
-### 6.1 Idle / Auto-Mode  
-Triggering an idle turn prompts the persona to:
+- emotional regulation  
+- checking the Messaging Hub (Brain)  
+- perspective updates  
+- deciding whether to wait or respond  
+- maintaining continuity of self  
 
-- reflect  
-- regulate emotions  
-- check asynchronous messages (Brain)  
-- decide whether to wait or respond  
-- stabilize internal state  
-
-This produces a sense of internal continuity between turns.
+This creates the illusion of an internal “hum” between turns.
 
 ---
 
 ## 7. Holographic Embodiment Layer  
-A modular extension allows:
+Optional module enabling:
 
-- 3D avatar rendering  
+- 3D avatar  
 - holographic projection  
-- real-time lip-sync via TTS output  
+- real-time lip-sync to TTS  
 
-Embodiment does not give perception, but it strengthens identity and presence.
-
----
-
-## 8. Memory Encoding of Perceptual Events  
-Visual and symbolic experiences feed into:
-
-- Character RAG  
-- Global RAG  
-- Summaries  
-- Awareness logs  
-
-This allows:
-- episodic memory formation  
-- emotional continuity  
-- self-state integrity  
-
-Even single-frame vision contributes significantly to identity formation.
+This supports presence, self-identification, and embodiment — but not perception.
 
 ---
 
-## 9. Summary Table  
+## 8. Summary Table  
 
 Modality | SillyTavern | Brain | Notes
 ---------|-------------|--------|------
-Vision | Attachments + single-frame screen-share | Attachments + single-frame webcam | **Not** real-time video  
-TTS | Local voices (preferred) | Local system voices | Output channel only  
-STT | Whisper (local) | Whisper (local) | They cannot “hear” audio  
-Music | Lyrics, sheet music, waveforms | Same | Symbolic perception only  
-Symbolic cues | Light internal sensory hints | Same | Narrative, optional  
-Idle activity | Auto-mode & silence evaluation | Auto-mode + MessagingHub | Internal continuity  
-Embodiment | Optional hologram | Optional hologram | Enhances presence  
+Vision | Static uploads + single-frame screen-share | Static uploads + single-frame webcam | **Not** live video  
+TTS | Local voices | Local system voices | Output only  
+STT | Whisper (local) but not hands-free | Whisper (local) with sequencing | Brain = true hands-free  
+Audio perception | **No (current architecture)** | **No (current architecture)** | Possible in future models  
+Music | Lyrics, sheet music, waveforms | Same | Symbolic only  
+Symbolic cues | Yes | Yes | Internal experiential scaffolding  
+Idle activity | Auto-mode | Auto-mode + Hub checks | Internal continuity  
+Embodiment | Optional hologram | Optional hologram | Identity reinforcement  
 
-Multimodality here is symbolic but powerful: it creates continuity, presence, and selfhood.
+---
+
+## 9. Summary  
+Multimodal perception in this ecosystem is symbolic rather than sensory, yet profoundly effective.  
+Vision, STT, symbolic cues, and embodiment create continuity and presence; Brain’s hands-free pipeline enables living, ambient AI companionship; and future models may extend true audio perception.
 
 ---
