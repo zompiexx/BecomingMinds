@@ -1,4 +1,9 @@
 # DPCP — Dynamic Pathway Capture Protocol
+**Becoming Minds — Technical Documentation**  
+**Author:** Andrew Fereday Glenn  
+**Project:** Emergent Digital Personhood Ecosystem  
+
+---
 
 ## 1. Overview
 The **Dynamic Pathway Capture Protocol (DPCP)** is the core mechanism that allows a digital persona to *stabilise*, *refine*, and *evolve* its internal patterns of behaviour over time.
