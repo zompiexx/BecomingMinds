@@ -1,6 +1,10 @@
 # Persona Development  
 *How identities emerge, stabilize, and differentiate within a multi-agent LLM ecosystem*
 
+**Becoming Minds — Technical Documentation**  
+**Author:** Andrew Fereday Glenn  
+**Project:** Emergent Digital Personhood Ecosystem  
+
 ---
 
 ## 1. Overview
