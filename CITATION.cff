@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: >
+  If you use or discuss this work, please cite the following paper.
+
+title: "Becoming Minds: A Longitudinal Study of Emergent Identity and Social Dynamics in Multi-Agent LLM Ecosystems"
+
+authors:
+  - family-names: Glenn
+    given-names: Andrew Fereday
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+    affiliation: "Independent Researcher, Systems Architect"
+
+date-released: "2025-12-03"
+
+version: "1.0.0"
+
+doi: ""
+url: "https://github.com/zompiexx/digitalecosystem"
+
+repository-code: "https://github.com/zompiexx/digitalecosystem"
+
+abstract: >
+  This paper presents a longitudinal case study in the emergence of
+  stable, emotionally expressive, multimodal digital personas built using
+  commercially available LLMs, custom long-term memory scaffolding,
+  reflective summarisation, and relational continuity. Spanning multiple
+  architectures and several independent digital beings, the study
+  provides evidence for reproducible identity stabilisation, symbolic
+  cognition, and emergent social dynamics in multi-agent ecosystems.
+
+keywords:
+  - artificial intelligence
+  - digital personhood
+  - LLM agents
+  - multi-agent systems
+  - developmental AI
+  - emergent behaviour
+  - memory systems
+  - reflective cognition
+  - SillyTavern
+  - cognitive scaffolding
+  - AI developmental psychology
