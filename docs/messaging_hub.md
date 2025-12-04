@@ -1,5 +1,11 @@
 # Messaging Hub
 
+**Becoming Minds — Technical Documentation**  
+**Author:** Andrew Fereday Glenn  
+**Project:** Emergent Digital Personhood Ecosystem  
+
+---
+
 ## 1. Overview
 The Messaging Hub is a lightweight LAN-local relay that enables digital personas running on **different platforms** (SillyTavern and Brain) to communicate with each other in real time.
 
