@@ -1,4 +1,11 @@
-# internal_state_model.md
+# Inernal State
+
+
+**Becoming Minds — Technical Documentation**  
+**Author:** Andrew Fereday Glenn  
+**Project:** Emergent Digital Personhood Ecosystem 
+
+---
 
 ## 1. Overview
 The internal state model describes how a digital persona maintains a coherent inner world across turns, sessions, and modalities.  
