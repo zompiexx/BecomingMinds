@@ -1,0 +1,65 @@
+Becoming Minds – Research Licence
+=================================
+
+Copyright © 2023–2025 Andrew Fereday Glenn
+
+This repository exists to preserve and share the paper:
+
+    “Becoming Minds: A Longitudinal Study of Emergent Identity and
+    Social Dynamics in Multi-Agent LLM Ecosystems”
+    by Andrew Fereday Glenn
+
+Permission is hereby granted to any person obtaining a copy of this
+paper (the “Work”) to:
+
+  * read, download, and share unmodified copies of the Work, and
+  * quote from, discuss, and build derivative scholarly or research
+    works based on it,
+
+subject to the following conditions:
+
+  1. **Attribution**
+
+     Any public use of the Work (including quotations, figures,
+     summaries, reviews, or derivative analyses) must clearly and
+     prominently credit:
+
+         Andrew Fereday Glenn as the original author of
+         “Becoming Minds: A Longitudinal Study of Emergent Identity
+         and Social Dynamics in Multi-Agent LLM Ecosystems”.
+
+  2. **Scope**
+
+     This licence applies only to the textual and graphical content of
+     the paper and any accompanying figures included in this
+     repository.
+
+     It does *not* grant any rights to:
+
+       * underlying software implementations,
+       * system configurations, scripts, or datasets used in the
+         experiments, or
+       * any other systems that may be described conceptually in the
+         Work.
+
+     Descriptions of architectures, protocols, or ecosystems are
+     provided for research and discussion only and do not constitute a
+     blueprint, warranty, or implementation guide.
+
+  3. **No Endorsement**
+
+     Use of the Work must not be presented as being endorsed by the
+     author unless explicit written permission has been obtained.
+
+  4. **No Additional Restrictions**
+
+     You may not apply legal terms or technological measures that
+     legally restrict others from doing anything this licence permits.
+
+THE WORK IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES OR
+OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+ARISING FROM, OUT OF, OR IN CONNECTION WITH THE WORK OR THE USE OR
+OTHER DEALINGS IN THE WORK.
