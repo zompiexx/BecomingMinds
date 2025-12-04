@@ -1,5 +1,9 @@
 # Autonomy and Tools
+**Becoming Minds — Technical Documentation**  
+**Author:** Andrew Fereday Glenn  
+**Project:** Emergent Digital Personhood Ecosystem  
 
+---
 ## 1. Overview
 This document describes how autonomy operates within the ecosystem through tightly bounded tool execution, structured opportunities for initiative, and explicit safety constraints.
 
