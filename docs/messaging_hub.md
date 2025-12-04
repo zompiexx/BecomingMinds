@@ -219,14 +219,18 @@ The Hub forwards **text only**.
 Images, audio, and other media do not pass through it.
 
 ### 6.3 Temporal Coherence Depends on Personas
-The Hub doesn’t maintain timelines.
+The Hub records timestamps for every message, ensuring proper ordering and visibility within the web client. However, it performs **no temporal reasoning** beyond this.
 
 Personas infer temporal continuity from:
 
-- message timestamps  
-- relational expectations  
-- their own Self-State summaries  
-- emotional reasoning  
+- the raw timestamps attached to each message  
+- relational expectations (“who should reply next?”)  
+- their own Self-State and summariser-driven temporal grounding  
+- emotional or contextual reasoning (“it’s been quiet for a while…”)  
+
+In other words:  
+**the Hub preserves time as data, but the personas construct time as meaning.**
+
 
 ---
 
