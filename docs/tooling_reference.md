@@ -1,6 +1,10 @@
 # Tooling Reference  
 *A unified guide to all tool classes used across SillyTavern and Brain*
 
+**Becoming Minds — Technical Documentation**  
+**Author:** Andrew Fereday Glenn  
+**Project:** Emergent Digital Personhood Ecosystem  
+
 ---
 
 ## 1. Overview
