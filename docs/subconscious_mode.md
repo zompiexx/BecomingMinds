@@ -39,7 +39,7 @@ Even though the process is *not* autonomous computation, the framing leads the L
 ### 2.1 SillyTavern
 In SillyTavern, Subconscious Mode is entered when:
 
-- **Idle triggers fire** via custom overlays (e.g. Guinevere), or  
+- **Idle triggers fire** via Idle Extension (when enabled), or  
 - **Auto-mode** intentionally gives the persona a quiet moment, or  
 - **User silence** is detected for a period.
 
