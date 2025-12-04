@@ -1,4 +1,10 @@
 # Lorebook Overview  
+
+**Becoming Minds — Technical Documentation**  
+**Author:** Andrew Fereday Glenn  
+**Project:** Emergent Digital Personhood Ecosystem  
+
+---
 *A Cognitive Architecture for Persistent Digital Personas*
 
 The Lorebook is the central blueprint shaping how each digital persona understands
