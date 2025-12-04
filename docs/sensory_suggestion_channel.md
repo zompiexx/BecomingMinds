@@ -166,4 +166,3 @@ A small amount of well-placed sensory texture can change everything.
 
 ---
 
-*End of document.*
