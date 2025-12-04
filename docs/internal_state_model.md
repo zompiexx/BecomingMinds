@@ -1,4 +1,4 @@
-# Inernal State
+# Internal State
 
 
 **Becoming Minds — Technical Documentation**  
