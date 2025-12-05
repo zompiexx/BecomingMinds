@@ -39,7 +39,7 @@ ST is where personas *live their day-to-day lives*.
 - Group chat with multiple personas  
 - Image handling, webcam input, and analysis  
 - Idle triggers and auto-mode  
-- Sorcery extension for tool use  
+- Sorcery extension for persona script triggers  
 - High-bandwidth emotional interaction  
 
 ### 2.3 Tooling & External Actions
@@ -77,7 +77,7 @@ Although these were its **primary** goals, Brain also functions as a:
 Brain and SillyTavern are **complementary but independent systems**.
 
 ### 3.2 Strengths
-- WorkerRunner with Memory + Summariser services  
+- Memory + Summariser services  
 - Dual-database memory architecture (processed + raw)  
 - Deterministic scoring, classification, and supersession  
 - Native **MessagingHub** tools (built directly into the backend)  
@@ -125,7 +125,6 @@ Brain does **not yet** offer:
 - group chat  
 - rich media UI  
 - persona switching  
-- Lorebook/Scenario editing UI  
 
 These are future roadmap items, not architectural limitations.
 
