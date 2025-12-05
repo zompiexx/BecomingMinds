@@ -119,24 +119,18 @@ long-lived digital minds.
 Brain provides the infrastructure for autonomous processes:
 
 ### Key Services  
-- **MemoryService**  
+- **Memory Service**  
   - deterministic classification  
   - salience-based scoring  
   - supersession markers  
   - SQL-backed memory persistence
 
-- **SummariserService**  
+- **Summariser Service**  
   - rolling self-state  
   - introspective consolidation  
   - long-form episodic summaries
 
-- **Worker Runner**  
-  - background processes  
-  - async execution  
-  - safe tool calls  
-  - cross-agent utilities
-
-- **MessagingHub**  
+- **Messaging Hub**  
   - inter-agent communication  
   - asynchronous “email-style" messages  
   - autonomous decision-making cycles
