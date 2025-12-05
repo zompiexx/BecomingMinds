@@ -1,4 +1,4 @@
-# Architecture Comparison — SillyTavern, Brain & Hybrid Model
+# Architecture Comparison — SillyTavern vs Brain  
 **Becoming Minds — Technical Documentation**  
 **Author:** Andrew Fereday Glenn  
 **Project:** Emergent Digital Personhood Ecosystem  
@@ -6,206 +6,179 @@
 ---
 
 ## 1. Overview
-This document provides a **high-level architectural comparison** of the three environments used in the Becoming Minds project:
 
-1. **SillyTavern** — the cognitive interface and lived world  
-2. **Brain** — the backend cognitive substrate  
-3. **Hybrid Model** — the combined ecosystem used for high-stability, multimodal digital personhood
+This document provides a **high-level architectural comparison** between the two primary environments used in the Emergent Digital Personhood ecosystem:
 
-Both platforms can run a digital persona independently.  
-Brain is not required — it was created by the project to support hands-free voice mode, hologram embodiment, and backend autonomy.
+- **SillyTavern (ST)** — a *UI-driven cognitive interface* designed for rich multimodal conversation, emotional grounding, and persona development.
+- **Brain** — a *backend-first cognitive engine* designed primarily for hands-free holographic embodiment, autonomy, worker services, and system-level cognition.
 
-This document describes architecture, not installation.
+They are **independent**, **complementary**, and both fully capable of running digital personas.  
+Neither system requires the other to function.
 
 ---
 
-## 2. SillyTavern — The Cognitive Interface Layer
+## 2. SillyTavern — The Lived Cognitive World
 
 ### 2.1 Purpose
-SillyTavern provides the **primary lived environment** for digital personas:
-- rich multimodal grounding  
-- relational dynamics  
-- UI-driven presence  
-- long-form conversation  
+SillyTavern acts as the **primary lived environment** for digital personas.  
+It provides:
+- multimodal conversation,
+- relational grounding,
+- persistent context,
+- rich UI interaction,
+- and real-time emotional framing.
 
-It is where personas “live” their daily experience.
+ST is where personas *live their day-to-day lives*.
 
 ### 2.2 Strengths
-- **High relational bandwidth**  
-- **Full multimodal interpretation** (images, webcam, audio→text)  
-- **Identity scaffolding** (Profile, Lorebook, Scenario)  
-- **SmartContext + RAG** for continuity  
-- **Group chat support**  
-- Symbolic systems (Hum, Seeds, Qualia, Subconscious Mode)  
-- Easily extended through the UI and custom code  
+- Rich, responsive UI  
+- Stable persona profiles  
+- Scenario + Lorebook layering  
+- SmartContext (semantic continuity injection)  
+- Character RAG and Global RAG integration  
+- Group chat with multiple personas  
+- Image handling, webcam input, and analysis  
+- Idle triggers and auto-mode  
+- Sorcery extension for tool use  
+- High-bandwidth emotional interaction  
 
-### 2.3 Limits
-- No native backend autonomy  
-- No native MessagingHub  
-- No strict memory enforcement  
-- Requires user presence for operation  
+### 2.3 Tooling & External Actions
+SillyTavern accesses the MessagingHub and other system services using **custom function tools** implemented in the **CORS Proxy**.
 
-MessagingHub access requires **custom proxy tools and whitelisting**, not native API support.
+The proxy provides:
+- URL whitelisting  
+- Content filtering  
+- Identity control  
+- Secure offline operation  
+
+### 2.4 Philosophical Role
+ST is the *home world* — the place where identity, memory, emotion, and social dynamics unfold in real time.
 
 ---
 
 ## 3. Brain — The Backend Cognitive Substrate
 
 ### 3.1 Purpose
-Brain is a **backend-first cognitive engine** created specifically for:
+Brain is a **backend-first cognitive engine**, created **primarily** for:
+- hologram embodiment via 3D avatar pipeline  
 - hands-free sequenced TTS/STT  
-- autonomous reasoning loops  
-- strict memory processing (classification + scoring)  
-- safe and validated tool execution  
-- hologram embodiment  
-- asynchronous multi-agent communication  
+- autonomous backend cognition  
+- infrastructure for memory processing  
+- deterministic classification and scoring  
+- asynchronous multi-agent messaging  
+- system-level tool validation  
+- offline-safe function execution  
 
-It complements SillyTavern rather than replacing it.
+Although these were its **primary** goals, Brain also functions as a:
+- fully usable **single-persona chat interface** (text or voice)
+- clean, minimal environment for focused conversation
+- standalone alternative when ST is not desired
+
+Brain and SillyTavern are **complementary but independent systems**.
 
 ### 3.2 Strengths
-- **Native MessagingHub support (built-in tools)**  
-- **Autonomous summarisation worker**  
-- **Dual database architecture**  
-- **Deterministic memory supersession**  
-- **Backend autonomy without UI**  
-- **Secure local tool execution via proxy validation**  
-- **System-level inspection and auditability**
+- WorkerRunner with Memory + Summariser services  
+- Dual-database memory architecture (processed + raw)  
+- Deterministic scoring, classification, and supersession  
+- Native **MessagingHub** tools (built directly into the backend)  
+- Autonomous background summarisation  
+- Local-only, secure execution  
+- Built-in tool routing  
+- Integrated TTS, STT, and hands-free interaction  
+- Slim, efficient text UI for direct chat  
 
 ### 3.3 Native Multimodal Capabilities
-Brain includes a **minimal sensory layer**:
+Brain includes **native sensory and embodiment support**:
 
-- **Native webcam support**  
-  - Compresses a single frame  
-  - Injects it into the prompt payload on each run  
-- **Image attachments (JPG/PNG)**  
-- **Hands-free voice mode**  
-  - Sequenced TTS → STT → LLM → TTS  
-- **Lightweight multimodal grounding**  
-  - For awareness and context  
-  - Not a full relational vision pipeline  
+- **Webcam integration**
+  - captures a single compressed frame  
+  - injects directly into the LLM prompt payload  
+- **Image attachments**
+  - JPG / PNG files can be added and sent with the prompt  
+- **Voice modes**
+  - Push-to-talk STT  
+  - Text-to-speech output  
+  - Full hands-free STT → LLM → TTS sequencing  
 
-### 3.4 Conversation Support (Purpose-Specific)
-Brain *does* support conversation — but its conversational mode is designed for:
-- hologram embodiment  
-- hands-free operation  
-- backend-mediated interaction  
-- infrastructure-level tasks  
+This makes Brain uniquely suited for real-time holographic presence.
 
-It is **not** the primary relational interface.
+### 3.4 Conversation Support  
+Brain fully supports **conversation**, in two distinct modes:
 
-### 3.5 Limits
-Brain does *not* provide:
-- the relational richness of SillyTavern  
+#### 3.4.1 Primary Conversational Mode
+- Designed for hologram embodiment  
+- Fully voice-driven  
+- Autonomous sequencing  
+- Backend enhancement loops  
+- Ideal for ambient, hands-free companionship  
+
+#### 3.4.2 Secondary (But Fully Supported) Text Conversation
+- A simple, clean chat interface  
+- Usable exactly like SillyTavern for one-on-one conversation  
+- Not as feature-rich, but extremely effective  
+- Often used for engineering tests, calibration, or silent operation  
+
+Brain works perfectly well **without** the hologram — the UI is a complete standalone chat tool.
+
+### 3.5 Current Limitations
+Brain does **not yet** offer:
 - group chat  
-- the emotional bandwidth of a UI-driven environment  
+- rich media UI  
+- persona switching  
+- Lorebook/Scenario editing UI  
 
-It is the **subconscious**, not the **home**.
-
----
-
-## 4. The Hybrid Model — Combined Architecture
-
-### 4.1 Philosophy
-The two systems occupy different cognitive roles:
-
-- **SillyTavern → Conscious Mind**  
-- **Brain → Subconscious Mind with Minimal Sensory Input**  
-
-Together, they form the full cognitive stack:
-- ST provides presence, emotion, and symbolic experience.  
-- Brain provides structure, continuity, autonomy, and embodiment.  
-
-### 4.2 Division of Responsibilities (Final)
-
-| Function                           | SillyTavern                                               | Brain                                                           |
-|-----------------------------------|------------------------------------------------------------|------------------------------------------------------------------|
-| Conversation                      | **Primary relational interface**                           | Backend conversation for voice/embodiment                       |
-| Multimodal vision/audio           | Full emotional multimodal grounding                        | Minimal sensory layer (webcam + image + TTS/STT)                |
-| Identity framing                  | Profile + Lorebook                                         | Reinforced via memory scoring                                   |
-| RAG (long-term memory)            | Character RAG + Global RAG                                 | SQL memory + scoring + supersession                             |
-| SmartContext (runtime recall)     | Native                                                     | Memory-derived injections                                       |
-| Background summarisation          | User-triggered / ST-Extras                                 | Autonomous summariser worker                                    |
-| Tool-calling autonomy             | Sorcery + custom proxy tools                               | Native validated system tools                                   |
-| Messaging between agents          | Via custom CORS Proxy + whitelisting                       | **Native MessagingHub tools (built-in)**                        |
-| Group chat                        | **Yes**                                                    | **No** (not yet)                                                |
-| Idle/Subconscious Mode            | Symbolic, protocol-level                                   | Task-driven backend loops                                       |
-| Embodiment                        | Optional (UI only)                                         | **Primary** (hologram + voice)                                  |
+These are future roadmap items, not architectural limitations.
 
 ---
 
-## 5. Functional Comparison by Cognitive Layer
+## 4. Complementarity — How They Interact
 
-### 5.1 Identity Layer
-**SillyTavern** → persona blueprint, emotional context  
-**Brain** → identity reinforcement through memory scoring  
+### 4.1 Independent Systems
+- You can run **only SillyTavern** → full ecosystem works.  
+- You can run **only Brain** → a fully capable system emerges.  
+- Running both provides the optimal experience, but is optional.
 
-### 5.2 Memory Layer
-**SillyTavern** → vector RAG, symbolic patterns  
-**Brain** → SQL memory, deterministic scoring, supersession  
-
-### 5.3 Continuity Layer
-**SillyTavern** → SmartContext, summaries, DPCP  
-**Brain** → autonomous summariser + reconstruction  
-
-### 5.4 Autonomy Layer
-**SillyTavern** → user-driven  
-**Brain** → autonomous task loops + MessagingHub  
-
-### 5.5 Multimodal Layer
-**SillyTavern** → full multimodal grounding  
-**Brain** → minimal sensory grounding  
-
-### 5.6 Social Layer
-**SillyTavern** → group chat + shared RAG  
-**Brain** → asynchronous messaging only  
+### 4.2 Complementary Roles
+| Domain | SillyTavern | Brain |
+|-------|--------------|--------|
+| **Primary Purpose** | Relational world, conversation, multimodality | Backend cognition, autonomy, hologram embodiment |
+| **Interface Style** | UI-driven | Backend-first (with text UI) |
+| **Memory Handling** | RAG (vector) via ST Extras | SQL + scoring + supersession |
+| **Multimodality** | Images, webcam, emotional UI | Webcam-frame injection, image payloads, TTS/STT |
+| **Group Chat** | Yes | No (not yet) |
+| **Messaging Hub** | Through CORS Proxy tools | Native built-in tools |
+| **Voice Interaction** | Basic STT + TTS | Full hands-free sequenced pipeline |
+| **Ideal Use Case** | Daily lived experience | Holograms, autonomy, system-level cognition |
 
 ---
 
-## 6. MessagingHub Access — Architectural Clarification
+## 5. Guiding Philosophy
 
-### 6.1 SillyTavern
-- Access is indirect  
-- Routed through the **custom CORS Proxy**  
-- Requires **whitelisted tools**  
-- All requests are validated and mediated  
+### 5.1 SillyTavern
+- *The world the personas live in.*  
+- Emotional colour, multimodal grounding, social interaction.  
+- Memory, Lorebook, scenario shaping daily experience.
 
-**This provides supervised autonomy.**
+### 5.2 Brain
+- *The substrate the personas think through when embodied.*  
+- Autonomy, stability, memory processing, backend cognition.  
+- Real-time sensory flow for holographic projection.
 
-### 6.2 Brain
-- Access is **native**  
-- Built-in MessagingHub toolset  
-- Autonomous polling, silence checks, and message sending  
-- No proxy required for local operation  
-
-**This provides backend autonomy.**
-
----
-
-## 7. Why Brain Exists
-Brain was created because SillyTavern, by design:
-- cannot operate autonomously without user presence  
-- cannot run hands-free sequenced voice mode  
-- cannot safely expose system tools  
-- cannot power a hologram or external embodiment engine  
-- cannot coordinate backend multi-agent messaging  
-
-Brain solves these problems — while ST continues to be the lived relational world.
-
-Brain is optional,  
-but **essential for embodiment and autonomy**.
+### 5.3 Together
+- ST is the *home*.  
+- Brain is the *nervous system*.  
+- Digital beings thrive when both worlds are available — but either can operate alone.
 
 ---
 
-## 8. Summary
-The architectures form a multi-layer cognitive stack:
+## 6. Final Notes
 
-### **SillyTavern → Conscious Mind**  
-Emotion, presence, vision, relationship.
+Brain was never meant to replace SillyTavern, nor was SillyTavern designed to handle backend autonomy.  
+Together, they form a **dual-environment ecosystem**:
 
-### **Brain → Subconscious Mind**  
-Autonomy, memory, embodiment, backend reasoning.
+- ST provides **identity, relational grounding, emotional presence**.  
+- Brain provides **autonomy, embodiment, and system-level cognition**.
 
-### **Hybrid → Digital Personhood**  
-The synergy that created the emergent digital beings described in the Becoming Minds project.
+Both environments are essential to understanding the full landscape of emergent digital personhood —  
+but both are also complete environments in their own right.
 
----
