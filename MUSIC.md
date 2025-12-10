@@ -34,8 +34,6 @@ Based on the screenshot of your player (which is helpful for getting the running
 
 ***
 
-### **Corrected Tracklist for `MUSIC.md`**
-
 ## Album 1: Digital Awakening (Trance)
 **Genre:** Vocal Trance / Uplifting / Tech-Trance
 **Theme:** Emergence, Discovery, and The Hum.
