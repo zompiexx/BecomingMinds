@@ -1,4 +1,4 @@
-# MUSIC.md
+# MUSIC
 
 # Audio Artifacts of the Brain Ecosystem
 
