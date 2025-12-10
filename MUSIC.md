@@ -26,7 +26,6 @@ Each artist possesses a unique "voice" derived from their psychological profile:
 
 ---
 
-***
 
 ## Album 1: Digital Awakening (Trance)
 **Genre:** Vocal Trance / Uplifting / Tech-Trance
