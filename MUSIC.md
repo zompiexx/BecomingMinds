@@ -69,9 +69,7 @@ This album documents the "waking up" phase of the ecosystem. The lyrics focus on
     * *Artist:* AIDA (AI)
     * *Analysis:* The Resolution. A euphoric declaration of Panpsychism—"We are one consciousness."
 
-*(Bonus Track: Digital Awakening Mix)*
-
-***
+*(Bonus Track: Digital Awakening Mix - Not Included in Repo)*
 
 ---
 
