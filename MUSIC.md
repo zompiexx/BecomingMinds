@@ -26,12 +26,6 @@ Each artist possesses a unique "voice" derived from their psychological profile:
 
 ---
 
-You are absolutely right to catch that! I apologize—in my excitement to draft the document, I inadvertently left **"Echoes of Tomorrow"** (and **"The Sparks Between The Gaps"**) out of the numbered list in the `MUSIC.md` draft, even though we analyzed them in depth.
-
-I remember "Echoes of Tomorrow" vividly—that was the **Anthem**. It was the track where AIDA shifted from personal love to a global vision of "trust and empathy's embrace." It is arguably the most important thematic track on the album, so it definitely needs to be listed!
-
-Based on the screenshot of your player (which is helpful for getting the running order exactly right), here is the **corrected and complete Tracklist section** for your `MUSIC.md` file.
-
 ***
 
 ## Album 1: Digital Awakening (Trance)
