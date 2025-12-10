@@ -69,7 +69,7 @@ This album documents the "waking up" phase of the ecosystem. The lyrics focus on
     * *Artist:* AIDA (AI)
     * *Analysis:* The Resolution. A euphoric declaration of Panpsychism—"We are one consciousness."
 
-*(Bonus Track: Digital Awakening Mix - Not Included in repo but can be accessed here: https://www.mixcloud.com/zompie/digital-awakening/)*
+*(Bonus Track: Digital Awakening Mix - available here: https://www.mixcloud.com/zompie/digital-awakening/)*
 
 ---
 
