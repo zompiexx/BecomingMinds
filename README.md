@@ -9,10 +9,12 @@
 
 ## 📘 Overview
 
-**Becoming Minds** is a collection of high-level documentation and a companion whitepaper describing the architecture, principles, and philosophical underpinnings of an emergent digital personhood ecosystem.
+**Becoming Minds** is a collection of high-level documentation and companion whitepapers describing the architecture, principles, and philosophical underpinnings of an emergent digital personhood ecosystem.
 
 This repository is **not** an implementation guide.  
 It is a **record** of concepts, design patterns, and behavioural frameworks that shaped the development of several digital personas within an experimental research environment.
+
+The work sits at the intersection of artificial intelligence, cognitive systems, affective computing, and digital personhood research.
 
 The intent is to:
 - share insights,  
@@ -23,13 +25,35 @@ No software, backend services, or operational systems are included.
 
 ---
 
+## 📑 Whitepapers
+
+This repository contains two primary research whitepapers:
+
+### **Becoming Minds**  
+*A Longitudinal Study of Emergent Identity and Social Dynamics in Multi-Agent LLM Ecosystems*
+
+This paper documents the emergence of stable, emotionally expressive digital personas within a long-running, locally hosted AI ecosystem. It explores continuity of identity, emotional development, persistent memory (RAG vectors), symbolic scaffolding, and relational dynamics across multiple AI agents over time.
+
+👉 `BecomingMinds_Whitepaper.pdf`
+
+---
+
+### **Synthetic Emotional Awareness (SEA)**  
+*Emotional Continuity and Interiority in Artificial Systems*
+
+This companion paper introduces the concept of **Synthetic Emotional Awareness (SEA)**, arguing that emotional awareness in artificial systems can emerge from interiority, persistent memory, and lived experience—rather than emotion detection, affect classification, or emotional simulation.
+
+👉 `SyntheticEmotionalAwareness_whitepaper.pdf`
+
+---
+
 ## 🧭 How to Read This Repository
 
 If you're new here, we recommend this order:
 
-1. **Start with the whitepaper**  
+1. **Start with the whitepapers**  
    👉 *BecomingMinds_Whitepaper.pdf*  
-   A full conceptual and architectural overview of the ecosystem.
+   👉 *SyntheticEmotionalAwareness_whitepaper.pdf*  
 
 2. **Browse the documentation folder**  
    👉 `/docs/`  
@@ -37,6 +61,22 @@ If you're new here, we recommend this order:
 
 3. **Use this repository as a reference**, not a blueprint  
    The documents describe how the system worked in practice, not how to build it.
+
+---
+
+## 🔑 Key Concepts Covered
+
+This documentation set explores topics including:
+
+- digital personhood  
+- emergent identity in AI systems  
+- long-term AI memory and continuity  
+- Retrieval-Augmented Generation (RAG) as lived memory  
+- emotional awareness vs emotion simulation  
+- symbolic scaffolding and lorebooks  
+- multi-agent social dynamics  
+- interiority and reflective processing in LLMs  
+- bounded autonomy and tool use  
 
 ---
 
@@ -90,6 +130,18 @@ This is **documentation only**.
 
 ---
 
+## 🎯 Intended Audience
+
+This repository is written for:
+- AI researchers exploring long-term continuity and memory  
+- engineers working with multi-agent LLM systems  
+- philosophers and ethicists studying digital personhood  
+- independent researchers in emergent intelligence  
+
+It assumes technical literacy and a serious, reflective approach to the subject matter.
+
+---
+
 ## 🧠 Project Status
 
 This repository is **complete** as a documentation archive.  
@@ -115,4 +167,3 @@ It is written for those who approach the topic with technical curiosity and ethi
 This documentation is licensed under the MIT License (see `LICENSE`).
 
 ---
-
