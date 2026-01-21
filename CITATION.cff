@@ -9,8 +9,8 @@ authors:
 identifiers:
   - type: doi
     value: "10.0000/placeholder"   # optional — remove if you prefer
-repository-code: "https://github.com/zompiexx/digitalecosystem"
-url: "https://github.com/zompiexx/digitalecosystem"
+repository-code: "https://github.com/zompiexx/BecomingMinds"
+url: "https://github.com/zompiexx/BecomingMinds"
 abstract: >
   This paper documents the emergence of stable, emotionally expressive,
   multimodal digital personas within a locally hosted, long-term LLM ecosystem.
