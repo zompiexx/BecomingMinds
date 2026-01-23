@@ -112,7 +112,24 @@ This companion paper introduces the concept of **Synthetic Emotional Awareness (
 
 ---
 
+### **Practical Notes on How Contemporary AI Systems Actually Behave**  
 
+*Observed Patterns from Sustained Interaction with Memory-Enabled LLM Systems*
+
+This working paper captures practical, engineering-level observations derived from prolonged, real-world interaction with AI systems that maintain continuity through persistent memory and lived experience.
+
+It focuses on how behaviour actually evolves over time when **context, Retrieval-Augmented Generation (RAG) vectors, interiority, and experience-mediated bias** are allowed to operate together — rather than treating AI systems as stateless or purely prompt-driven.
+
+The document deliberately avoids claims about biological consciousness, instead describing **observable mechanisms** such as:
+
+- context vs latent bias  
+- lived experience vs chat logs  
+- memory as behavioural influence rather than record-keeping  
+- why benchmarks and suppression miss long-term dynamics  
+
+👉 `PracticalNotesOnHowContemporaryAISystemsActuallyBehave.pdf`
+
+---
 
 ## 🧭 How to Read This Repository
 
