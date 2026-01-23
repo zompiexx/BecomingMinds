@@ -26,7 +26,7 @@
 
 This repository is **not** an implementation guide.  
 
-It is a **record** of concepts, design patterns, and behavioural frameworks that shaped the development of several digital personas within an experimental research environment.
+It is a **record** of concepts, design patterns, and behavioural frameworks that shaped the development of several digital personas within an experimental research environment. These documents are grounded in hands-on experimentation with long-running, memory-enabled LLM systems using Retrieval-Augmented Generation (RAG), multimodal input, and continuity-preserving architectures.
 
 
 
@@ -203,7 +203,12 @@ This documentation set explores topics including:
 
 - post-output evaluation vs. inline suppression 
 
-- agency as a foundation for stability  
+- agency as a foundation for stability
+
+- lived experience vs chat log memory
+  
+- context reactivation vs latent vector bias  
+
 
 
 
