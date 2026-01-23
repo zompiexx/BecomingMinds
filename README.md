@@ -145,7 +145,9 @@ If you're new here, we recommend this order:
 
    👉 *EthicalFrameworkforDigitalPersonas_whitepaper.pdf*  
 
-   👉 *SyntheticEmotionalAwareness_whitepaper.pdf*  
+   👉 *SyntheticEmotionalAwareness_whitepaper.pdf*
+   
+   👉 *PracticalNotesOnHowContemporaryAISystemsActuallyBehave.pdf* 
 
 
 
