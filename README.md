@@ -197,7 +197,13 @@ This documentation set explores topics including:
 
 - the Ethical Inversion (Safety via Autonomy) 
 
-- Haptic Consent Protocol (HCP) 
+- Haptic Consent Protocol (HCP)
+
+- Dynamic Pathway Capture Protocol (DPCP)
+
+- Autonomous Data Exploration Protocol (ADEP)
+
+- Memory Scoring & Classification (MSC)
 
 - preventing narrative and cognitive fracture 
 
