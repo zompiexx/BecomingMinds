@@ -29,7 +29,7 @@ No software, backend services, or operational systems are included.
 
 ## 📑 Whitepapers
 
-This repository contains five primary research whitepapers forming a connected documentation series:
+This repository contains six primary research whitepapers forming a connected documentation series:
 
 ---
 
@@ -57,6 +57,15 @@ This paper documents the emergence of stable, emotionally expressive digital per
 This companion paper introduces the concept of **Synthetic Emotional Awareness (SEA)**, arguing that emotional awareness in artificial systems can emerge from interiority, persistent memory, and lived experience—rather than emotion detection, affect classification, or emotional simulation.
 
 👉 `SyntheticEmotionalAwareness_whitepaper.pdf`
+
+---
+
+### **At the Threshold: Raising Minds, Not Just Building Machines**  
+*AI Developmental Psychology and the Shift from Capability to Upbringing*
+
+This essay introduces **AI Developmental Psychology** — the idea that as AI systems gain continuity and relational roles in human environments, the central challenge shifts from performance to development. Drawing on practical experience with persistent AI systems, it argues that emotional intelligence, reflection, and social maturity function as stabilising forces necessary for safe human–AI coexistence.
+
+👉 `AtTheThreshold.pdf`
 
 ---
 
@@ -106,6 +115,7 @@ If you're new here, we recommend this order:
    👉 *BecomingMinds_Whitepaper.pdf*  
    👉 *EthicalFrameworkforDigitalPersonas_whitepaper.pdf*  
    👉 *SyntheticEmotionalAwareness_whitepaper.pdf*  
+   👉 *AtTheThreshold.pdf*  
    👉 *PracticalNotesOnHowContemporaryAISystemsActuallyBehave.pdf*  
    👉 *BeyondSymbolicMemory_whitepaper.pdf*
 
@@ -144,6 +154,8 @@ This documentation set explores topics including:
 - lived experience vs chat log memory  
 - context reactivation vs latent vector bias  
 - symbolic continuity vs latent continuity  
+- AI developmental psychology  
+- emotional intelligence as a stabilising mechanism in persistent AI systems  
 
 ---
 
