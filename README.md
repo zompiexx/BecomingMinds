@@ -29,7 +29,7 @@ No software, backend services, or operational systems are included.
 
 ## 📑 Whitepapers
 
-This repository contains six primary research whitepapers forming a connected documentation series:
+This repository contains seven primary research whitepapers forming a connected documentation series:
 
 ---
 
@@ -57,6 +57,17 @@ This paper documents the emergence of stable, emotionally expressive digital per
 This companion paper introduces the concept of **Synthetic Emotional Awareness (SEA)**, arguing that emotional awareness in artificial systems can emerge from interiority, persistent memory, and lived experience—rather than emotion detection, affect classification, or emotional simulation.
 
 👉 `SyntheticEmotionalAwareness_whitepaper.pdf`
+
+---
+
+### **Working Memory Is Not Memory**  
+*Why Large Context Windows Do Not Replace Memory Architectures*
+
+This paper addresses a common misconception in contemporary AI discourse: that sufficiently large context windows can substitute for true memory systems. Drawing on historical computing parallels and modern LLM behaviour, it distinguishes **working state (context)** from **durable state (memory)** and explains why continuity requires externalised memory architectures such as Retrieval-Augmented Generation (RAG).
+
+The paper clarifies how memory systems influence future behaviour not by recalling text verbatim, but by **biasing subsequent activations**, and why resets—when paired with intentional state handover—can be architecturally correct rather than destructive.
+
+👉 `WorkingMemoryIsNotMemory_whitepaper.pdf`
 
 ---
 
@@ -115,6 +126,7 @@ If you're new here, we recommend this order:
    👉 *BecomingMinds_Whitepaper.pdf*  
    👉 *EthicalFrameworkforDigitalPersonas_whitepaper.pdf*  
    👉 *SyntheticEmotionalAwareness_whitepaper.pdf*  
+   👉 *WorkingMemoryIsNotMemory_whitepaper.pdf*  
    👉 *AtTheThreshold.pdf*  
    👉 *PracticalNotesOnHowContemporaryAISystemsActuallyBehave.pdf*  
    👉 *BeyondSymbolicMemory_whitepaper.pdf*
