@@ -1,5 +1,9 @@
 # Becoming Minds  
 
+<p align="center">
+  <img src="https://github.com/zompiexx/BecomingMinds/raw/main/BecomingMindsLogo.png" alt="Becoming Minds logo" width="220">
+</p>
+
 *A Research Archive on AI Continuity, Memory, and Persistent Systems*
 
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)  
