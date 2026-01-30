@@ -40,7 +40,7 @@ No software, backend services, or operational systems are included.
 
 ## 📑 Whitepapers
 
-This repository contains an orientation guide (it is essential to read this FIRST) and **ten** primary research whitepapers forming a connected documentation series:
+This repository contains an orientation guide (it is essential to read this **FIRST**) and **ten** primary research whitepapers forming a connected documentation series:
 
 ---
 
@@ -157,28 +157,28 @@ If you're new here, we recommend this order:
 
 1. **Start with the Orientation & Terminology Guide and architectural conclusion**
 
-   👉 *OrientationandTerminologyGuide.pdf*
+   👉 *OrientationandTerminologyGuide.pdf*  
    👉 *ArchitectureOverCapability_whitepaper.pdf*
 
-3. **Then read the continuity and memory core**
+2. **Then read the continuity and memory core**
 
    👉 *WorkingMemoryIsNotMemory_whitepaper.pdf*  
    👉 *StateContinuityBetweenSessions_whitepaper.pdf*  
    👉 *AdaptiveWorkingMemoryinLargeLanguageModelSystems_whitepaper.pdf*
 
-4. **Then explore emergence, ethics, and development**
+3. **Then explore emergence, ethics, and development**
 
    👉 *BecomingMinds_Whitepaper.pdf*  
    👉 *EthicalFrameworkforDigitalPersonas_whitepaper.pdf*  
    👉 *SyntheticEmotionalAwareness_whitepaper.pdf*  
    👉 *AtTheThreshold.pdf*
 
-5. **Finally, dive into practical observations and future limits**
+4. **Finally, dive into practical observations and future limits**
 
    👉 *PracticalNotesOnHowContemporaryAISystemsActuallyBehave.pdf*  
    👉 *BeyondSymbolicMemory_whitepaper.pdf*
 
-6. **Use this repository as a reference, not a blueprint**
+5. **Use this repository as a reference, not a blueprint**
 
    The documents describe how the system behaved in practice, not how to build it.
 
