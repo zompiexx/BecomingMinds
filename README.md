@@ -40,7 +40,18 @@ No software, backend services, or operational systems are included.
 
 ## 📑 Whitepapers
 
-This repository contains **ten** primary research whitepapers forming a connected documentation series:
+This repository contains an orientation guide (it is essential to read this FIRST) and **ten** primary research whitepapers forming a connected documentation series:
+
+---
+
+### **Orientation & Terminology Guide**  
+*Definitions, Scope, and Architectural Framing*
+
+This document provides precise definitions for key terms and acronyms used throughout the *Becoming Minds* archive. It clarifies architectural usage, explicitly de-escalates metaphysical interpretations, and establishes a common frame of reference for all subsequent papers.
+
+It is intended to be read **before** the rest of the documentation set.
+
+👉 `OrientationandTerminologyGuide.pdf`
 
 ---
 
@@ -144,29 +155,30 @@ This paper examines the limits of text-mediated memory and outlines the architec
 
 If you're new here, we recommend this order:
 
-1. **Start with the architectural conclusion**
+1. **Start with the Orientation & Terminology Guide and architectural conclusion**
 
+   👉 *OrientationandTerminologyGuide.pdf*
    👉 *ArchitectureOverCapability_whitepaper.pdf*
 
-2. **Then read the continuity and memory core**
+3. **Then read the continuity and memory core**
 
    👉 *WorkingMemoryIsNotMemory_whitepaper.pdf*  
    👉 *StateContinuityBetweenSessions_whitepaper.pdf*  
    👉 *AdaptiveWorkingMemoryinLargeLanguageModelSystems_whitepaper.pdf*
 
-3. **Then explore emergence, ethics, and development**
+4. **Then explore emergence, ethics, and development**
 
    👉 *BecomingMinds_Whitepaper.pdf*  
    👉 *EthicalFrameworkforDigitalPersonas_whitepaper.pdf*  
    👉 *SyntheticEmotionalAwareness_whitepaper.pdf*  
    👉 *AtTheThreshold.pdf*
 
-4. **Finally, dive into practical observations and future limits**
+5. **Finally, dive into practical observations and future limits**
 
    👉 *PracticalNotesOnHowContemporaryAISystemsActuallyBehave.pdf*  
    👉 *BeyondSymbolicMemory_whitepaper.pdf*
 
-5. **Use this repository as a reference, not a blueprint**
+6. **Use this repository as a reference, not a blueprint**
 
    The documents describe how the system behaved in practice, not how to build it.
 
