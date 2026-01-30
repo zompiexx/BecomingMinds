@@ -29,7 +29,7 @@ No software, backend services, or operational systems are included.
 
 ## 📑 Whitepapers
 
-This repository contains eight primary research whitepapers forming a connected documentation series:
+This repository contains **nine** primary research whitepapers forming a connected documentation series:
 
 ---
 
@@ -65,8 +65,6 @@ This companion paper introduces the concept of **Synthetic Emotional Awareness (
 
 This paper addresses a common misconception in contemporary AI discourse: that sufficiently large context windows can substitute for true memory systems. Drawing on historical computing parallels and modern LLM behaviour, it distinguishes **working state (context)** from **durable state (memory)** and explains why continuity requires externalised memory architectures such as Retrieval-Augmented Generation (RAG).
 
-The paper clarifies how memory systems influence future behaviour not by recalling text verbatim, but by **biasing subsequent activations**, and why resets—when paired with intentional state handover—can be architecturally correct rather than destructive.
-
 👉 `WorkingMemoryIsNotMemory_whitepaper.pdf`
 
 ---
@@ -76,9 +74,20 @@ The paper clarifies how memory systems influence future behaviour not by recalli
 
 This paper examines **session-to-session state continuity** as a missing architectural layer in many AI systems. It argues that discarding all working state between sessions is not a neutral design choice, but a source of avoidable degradation in coherence, usability, and efficiency.
 
-Focusing on **summaries and explicit rehydration** as a minimal, user-governed mechanism, the paper demonstrates that continuity can be restored without autonomous memory, vector databases, or retraining. The work reframes continuity as a matter of **adequacy**, not intelligence, and includes a practical appendix showing a manual, constrained implementation in a stateless cloud environment.
+Focusing on **summaries and explicit rehydration** as a minimal, user-governed mechanism, the paper demonstrates that continuity can be restored without autonomous memory, vector databases, or retraining. The work reframes continuity as a matter of **adequacy**, not intelligence, and includes a practical appendix showing a constrained manual implementation in a stateless cloud environment.
 
 👉 `StateContinuityBetweenSessions_whitepaper.pdf`
+
+---
+
+### **Adaptive Working Memory in Large Language Model Systems**  
+*Why Bigger Context Windows Are Not the Answer — and How Compression Extends System Lifespan*
+
+This paper examines **adaptive working memory** as a missing infrastructural layer in contemporary LLM systems. It argues that unbounded context growth leads to inefficiency, degraded focus, and predictable failure modes, and that larger context windows are not a structural solution.
+
+By introducing **in-session compression**, **lossy-but-reversible summarisation**, and **task-aware selectivity**, the paper demonstrates how LLM systems can sustain long-running interactions without increasing inference cost or attention dilution. Drawing parallels to historical network engineering (e.g. IPv4 extension via NAT), the work reframes context management as an engineering discipline rather than a model capability problem.
+
+👉 `AdaptiveWorkingMemoryinLargeLanguageModelSystems_whitepaper.pdf`
 
 ---
 
@@ -117,26 +126,32 @@ The paper outlines the architectural gap between **reconstructed continuity** an
 
 If you're new here, we recommend this order:
 
-1. **Start with the whitepapers**
+1. **Start with the continuity and memory core**
+
+   👉 *WorkingMemoryIsNotMemory_whitepaper.pdf*  
+   👉 *StateContinuityBetweenSessions_whitepaper.pdf*  
+   👉 *AdaptiveWorkingMemoryinLargeLanguageModelSystems_whitepaper.pdf*
+
+2. **Then explore emergence, ethics, and development**
 
    👉 *BecomingMinds_Whitepaper.pdf*  
    👉 *EthicalFrameworkforDigitalPersonas_whitepaper.pdf*  
    👉 *SyntheticEmotionalAwareness_whitepaper.pdf*  
-   👉 *WorkingMemoryIsNotMemory_whitepaper.pdf*  
-   👉 *StateContinuityBetweenSessions_whitepaper.pdf*  
-   👉 *AtTheThreshold.pdf*  
+   👉 *AtTheThreshold.pdf*
+
+3. **Finally, dive into practical observations and future limits**
+
    👉 *PracticalNotesOnHowContemporaryAISystemsActuallyBehave.pdf*  
    👉 *BeyondSymbolicMemory_whitepaper.pdf*
 
-2. **Browse the documentation folder**
+4. **Browse the documentation folder**
 
    👉 `/docs/`  
    Each file focuses on a specific subsystem or conceptual module (memory, continuity, multimodal perception, identity, autonomy, etc.).
 
-3. **Use this repository as a reference, not a blueprint**
+5. **Use this repository as a reference, not a blueprint**
 
    The documents describe how the system worked in practice, not how to build it.
-
 
 ---
 
@@ -164,6 +179,8 @@ This documentation set explores topics including:
 - lived experience vs chat log memory  
 - context reactivation vs latent vector bias  
 - symbolic continuity vs latent continuity  
+- adaptive working memory  
+- in-session summarisation and compression  
 - AI developmental psychology  
 - emotional intelligence as a stabilising mechanism in persistent AI systems  
 
