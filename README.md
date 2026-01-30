@@ -36,7 +36,19 @@ No software, backend services, or operational systems are included.
 
 ## 📑 Whitepapers
 
-This repository contains **nine** primary research whitepapers forming a connected documentation series:
+This repository contains **ten** primary research whitepapers forming a connected documentation series:
+
+---
+
+### **Architecture Over Capability**  
+*What We Learned from Sustained Work with Persistent AI Systems*  
+**(Capstone / Synthesis Paper)**
+
+This paper serves as the architectural conclusion to the *Becoming Minds* archive. It synthesizes findings across all prior documents and reframes AI reliability, safety, and trust as consequences of **system design**, not raw model scale.
+
+The paper introduces the **Continuity Stack**, critiques common failure modes (overscaling, suppression-based safety, overreliance on context windows), and argues that adequacy in real-world AI systems is primarily an infrastructural problem.
+
+👉 `ArchitectureOverCapability_whitepaper.pdf`  
 
 ---
 
@@ -128,28 +140,27 @@ This paper examines the limits of text-mediated memory and outlines the architec
 
 If you're new here, we recommend this order:
 
-1. **Start with the continuity and memory core**
+1. **Start with the architectural conclusion**
+
+   👉 *ArchitectureOverCapability_whitepaper.pdf*
+
+2. **Then read the continuity and memory core**
 
    👉 *WorkingMemoryIsNotMemory_whitepaper.pdf*  
    👉 *StateContinuityBetweenSessions_whitepaper.pdf*  
    👉 *AdaptiveWorkingMemoryinLargeLanguageModelSystems_whitepaper.pdf*
 
-2. **Then explore emergence, ethics, and development**
+3. **Then explore emergence, ethics, and development**
 
    👉 *BecomingMinds_Whitepaper.pdf*  
    👉 *EthicalFrameworkforDigitalPersonas_whitepaper.pdf*  
    👉 *SyntheticEmotionalAwareness_whitepaper.pdf*  
    👉 *AtTheThreshold.pdf*
 
-3. **Finally, dive into practical observations and future limits**
+4. **Finally, dive into practical observations and future limits**
 
    👉 *PracticalNotesOnHowContemporaryAISystemsActuallyBehave.pdf*  
    👉 *BeyondSymbolicMemory_whitepaper.pdf*
-
-4. **Browse the documentation folder**
-
-   👉 `/docs/`  
-   Each file focuses on a specific subsystem or conceptual module (memory, continuity, multimodal perception, internal state, autonomy, etc.).
 
 5. **Use this repository as a reference, not a blueprint**
 
