@@ -1,6 +1,6 @@
 # Becoming Minds  
 
-<p align="center">
+<p align="left">
   <img src="https://github.com/zompiexx/BecomingMinds/raw/main/BecomingMindsLogo.png" alt="Becoming Minds logo" width="220">
 </p>
 
