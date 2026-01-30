@@ -21,7 +21,7 @@ The intent is to:
 
 - share insights  
 - preserve the ideas faithfully  
-- offer a readable map for researchers, engineers, and philosophers exploring long-term AI continuity and identity
+- offer a readable map for researchers, engineers, and philosophers exploring long-term AI continuity and identity  
 
 No software, backend services, or operational systems are included.
 
@@ -29,7 +29,7 @@ No software, backend services, or operational systems are included.
 
 ## 📑 Whitepapers
 
-This repository contains seven primary research whitepapers forming a connected documentation series:
+This repository contains eight primary research whitepapers forming a connected documentation series:
 
 ---
 
@@ -71,6 +71,17 @@ The paper clarifies how memory systems influence future behaviour not by recalli
 
 ---
 
+### **State Continuity Between Sessions**  
+*Why Cold Starts Are Architecturally Harmful — and How to Fix Them Simply*
+
+This paper examines **session-to-session state continuity** as a missing architectural layer in many AI systems. It argues that discarding all working state between sessions is not a neutral design choice, but a source of avoidable degradation in coherence, usability, and efficiency.
+
+Focusing on **summaries and explicit rehydration** as a minimal, user-governed mechanism, the paper demonstrates that continuity can be restored without autonomous memory, vector databases, or retraining. The work reframes continuity as a matter of **adequacy**, not intelligence, and includes a practical appendix showing a manual, constrained implementation in a stateless cloud environment.
+
+👉 `StateContinuityBetweenSessions_whitepaper.pdf`
+
+---
+
 ### **At the Threshold: Raising Minds, Not Just Building Machines**  
 *AI Developmental Psychology and the Shift from Capability to Upbringing*
 
@@ -87,13 +98,6 @@ This working paper captures practical, engineering-level observations derived fr
 
 It focuses on how behaviour actually evolves over time when **context, Retrieval-Augmented Generation (RAG) vectors, interiority, and experience-mediated bias** are allowed to operate together — rather than treating AI systems as stateless or purely prompt-driven.
 
-The document deliberately avoids claims about biological consciousness, instead describing **observable mechanisms** such as:
-
-- context vs latent bias  
-- lived experience vs chat logs  
-- memory as behavioural influence rather than record-keeping  
-- why benchmarks and suppression miss long-term dynamics  
-
 👉 `PracticalNotesOnHowContemporaryAISystemsActuallyBehave.pdf`
 
 ---
@@ -104,14 +108,6 @@ The document deliberately avoids claims about biological consciousness, instead 
 This paper examines the structural limits of current AI continuity mechanisms that rely on **symbolic, text-mediated memory**. It describes how modern systems preserve experience through interpretive summaries and RAG vectors, and why this approach—while effective—remains an indirect, lossy bridge.
 
 The paper outlines the architectural gap between **reconstructed continuity** and **native latent continuity**, arguing that future systems may require memory mechanisms that preserve the *processing consequences* of experience directly within inference dynamics rather than repeatedly translating experience into language.
-
-It remains grounded in system mechanics, focusing on:
-
-- compression loss in symbolic memory pipelines  
-- reconstruction vs reactivation of prior state  
-- the trade-off between fidelity and auditability  
-- governance challenges of persistent latent memory  
-- hybrid symbolic–latent memory architectures  
 
 👉 `BeyondSymbolicMemory_whitepaper.pdf`
 
@@ -127,6 +123,7 @@ If you're new here, we recommend this order:
    👉 *EthicalFrameworkforDigitalPersonas_whitepaper.pdf*  
    👉 *SyntheticEmotionalAwareness_whitepaper.pdf*  
    👉 *WorkingMemoryIsNotMemory_whitepaper.pdf*  
+   👉 *StateContinuityBetweenSessions_whitepaper.pdf*  
    👉 *AtTheThreshold.pdf*  
    👉 *PracticalNotesOnHowContemporaryAISystemsActuallyBehave.pdf*  
    👉 *BeyondSymbolicMemory_whitepaper.pdf*
@@ -139,6 +136,7 @@ If you're new here, we recommend this order:
 3. **Use this repository as a reference, not a blueprint**
 
    The documents describe how the system worked in practice, not how to build it.
+
 
 ---
 
