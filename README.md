@@ -17,9 +17,11 @@
 **Becoming Minds** is a collection of high-level documentation and companion whitepapers describing the architecture, principles, and empirical findings of sustained work with **persistent, memory-enabled AI systems**.
 
 This repository is **not** an implementation guide.  
-It is a **research archive** documenting concepts, design patterns, and architectural frameworks that emerged from hands-on experimentation with long-running Large Language Model (LLM) systems using Retrieval-Augmented Generation (RAG), multimodal input, adaptive working memory, and explicit continuity mechanisms.
+It is a **research archive** documenting concepts, design patterns, and architectural frameworks that emerged from hands-on experimentation with long-running Large Language Model (LLM) systems using Retrieval-Augmented Generation (RAG), multimodal input, adaptive working memory, explicit continuity mechanisms, and **Autonomous RAG Search (ARS)**.
 
 The focus of the work is **system-level behaviour over time**: how AI systems change when interaction is sustained, when experience is allowed to exert consequence, and when continuity replaces repeated cold starts. Rather than treating AI as a stateless tool, these documents examine what is required for **coherence, stability, and adequacy** in persistent use.
+
+Recent work in this archive introduces **Autonomous RAG Search (ARS)**, a practical pattern in which retrieval becomes an explicit, model-driven action rather than a passive middleware process. This closes an important architectural gap between passive memory scaffolding and intentional recall.
 
 The work sits at the intersection of:
 
@@ -40,7 +42,7 @@ No software, backend services, or operational systems are included.
 
 ## 📑 Whitepapers
 
-This repository contains an orientation guide (it is essential to read this **FIRST**) and **ten** primary research whitepapers forming a connected documentation series:
+This repository contains an orientation guide (it is essential to read this **FIRST**) and **eleven** primary research whitepapers forming a connected documentation series:
 
 ---
 
@@ -64,6 +66,17 @@ This paper serves as the architectural conclusion to the *Becoming Minds* archiv
 The paper introduces the **Continuity Stack**, critiques common failure modes (overscaling, suppression-based safety, overreliance on context windows), and argues that adequacy in real-world AI systems is primarily an infrastructural problem.
 
 👉 `ArchitectureOverCapability_whitepaper.pdf`  
+
+---
+
+### **Autonomous RAG Search (ARS)**  
+*From Injected Context to Intentional Memory Access*
+
+This paper introduces **Autonomous RAG Search (ARS)** as a practical architectural pattern in which retrieval is exposed as a callable tool, allowing the model to decide when and why to perform a search. Rather than relying on passive context injection, ARS enables intentional, model-driven retrieval within the reasoning loop.
+
+It documents the shift from retrieval as middleware to retrieval as explicit action, including implementation details, observed behaviour, and the implications for continuity in stateless systems.
+
+👉 `AutonomousRAGSearch_whitepaper.pdf`
 
 ---
 
@@ -164,7 +177,8 @@ If you're new here, we recommend this order:
 
    👉 *WorkingMemoryIsNotMemory_whitepaper.pdf*  
    👉 *StateContinuityBetweenSessions_whitepaper.pdf*  
-   👉 *AdaptiveWorkingMemoryinLargeLanguageModelSystems_whitepaper.pdf*
+   👉 *AdaptiveWorkingMemoryinLargeLanguageModelSystems_whitepaper.pdf*  
+   👉 *AutonomousRAGSearch_whitepaper.pdf*
 
 3. **Then explore emergence, ethics, and development**
 
@@ -191,6 +205,7 @@ This documentation set explores topics including:
 - AI continuity and persistence  
 - long-term memory and state reconstruction  
 - Retrieval-Augmented Generation (RAG) as experiential bias  
+- Autonomous RAG Search (ARS) as intentional retrieval  
 - context vs memory vs continuity  
 - emotional grounding as a stabilising mechanism  
 - symbolic scaffolding and orientation frameworks  
