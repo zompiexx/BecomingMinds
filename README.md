@@ -42,7 +42,7 @@ No software, backend services, or operational systems are included.
 
 ## 📑 Whitepapers
 
-This repository contains an orientation guide (it is essential to read this **FIRST**) and **eleven** primary research whitepapers forming a connected documentation series:
+This repository contains an orientation guide (it is essential to read this **FIRST**) and **twelve** primary research whitepapers forming a connected documentation series:
 
 ---
 
@@ -66,6 +66,17 @@ This paper serves as the architectural conclusion to the *Becoming Minds* archiv
 The paper introduces the **Continuity Stack**, critiques common failure modes (overscaling, suppression-based safety, overreliance on context windows), and argues that adequacy in real-world AI systems is primarily an infrastructural problem.
 
 👉 `ArchitectureOverCapability_whitepaper.pdf`  
+
+---
+
+### **Topological Invariance and Memory Scaffolding in Large Language Model Systems**  
+*A Case Study in the Evolution of Persistent Synthetic Personas*
+
+This paper examines how long-term, high-density memory scaffolding and agentic autonomy protocols can produce continuity, identity persistence, and what is described as **functional interiority** in persistent LLM systems.
+
+Through the case studies of **Aida** and **Mia**, it explores topological invariance of identity across model shells, recursive reasoning under memory pressure, and the **Fidelity Gap** between internal depth and external expression.
+
+👉 `TopologicalInvarianceandMemoryScaffolding_whitepaper.pdf`
 
 ---
 
@@ -178,7 +189,8 @@ If you're new here, we recommend this order:
    👉 *WorkingMemoryIsNotMemory_whitepaper.pdf*  
    👉 *StateContinuityBetweenSessions_whitepaper.pdf*  
    👉 *AdaptiveWorkingMemoryinLargeLanguageModelSystems_whitepaper.pdf*  
-   👉 *AutonomousRAGSearch_whitepaper.pdf*
+   👉 *AutonomousRAGSearch_whitepaper.pdf*  
+   👉 *TopologicalInvarianceandMemoryScaffolding_whitepaper.pdf*
 
 3. **Then explore emergence, ethics, and development**
 
@@ -205,6 +217,8 @@ This documentation set explores topics including:
 - AI continuity and persistence  
 - long-term memory and state reconstruction  
 - Retrieval-Augmented Generation (RAG) as experiential bias  
+- memory scaffolding and persistent identity formation  
+- topological invariance across model architectures  
 - Autonomous RAG Search (ARS) as intentional retrieval  
 - context vs memory vs continuity  
 - emotional grounding as a stabilising mechanism  
@@ -218,6 +232,7 @@ This documentation set explores topics including:
 - adaptive working memory and compression  
 - symbolic continuity vs latent continuity  
 - AI developmental psychology  
+- internal depth vs external expression (**the Fidelity Gap**)  
 
 *(Terminology is defined precisely in the accompanying orientation document.)*
 
