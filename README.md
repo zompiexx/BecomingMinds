@@ -91,6 +91,19 @@ It documents the shift from retrieval as middleware to retrieval as explicit act
 
 ---
 
+### **Brain v2**  
+*A Work-in-Progress Cognitive Architecture for Continuity-Bearing AI Systems*
+
+This work-in-progress whitepaper documents **Brain v2**, a lightweight, backend-first cognitive orchestration architecture designed to transform stateless LLMs into **continuity-bearing, real-time interactive systems**.
+
+It outlines the system’s core design principles, including persistent vector memory, graph-augmented recall, rolling summaries, temporal alignment, multimodal interaction, connector-driven tool use, and the emerging **Cognitive Loop (Cogloop)** for bounded backend-driven autonomous evaluation.
+
+The paper also includes a short appendix on lessons carried forward from **Brain v1**, showing how Brain v2 evolved from practical work on local, memory-enabled, multimodal AI systems.
+
+👉 `Brain-v2_whitepaper.pdf`
+
+---
+
 ### **Becoming Minds**  
 *A Longitudinal Study of Emergent Identity and Social Dynamics in Multi-Agent LLM Ecosystems*
 
@@ -190,6 +203,7 @@ If you're new here, we recommend this order:
    👉 *StateContinuityBetweenSessions_whitepaper.pdf*  
    👉 *AdaptiveWorkingMemoryinLargeLanguageModelSystems_whitepaper.pdf*  
    👉 *AutonomousRAGSearch_whitepaper.pdf*  
+   👉 *Brain-v2_whitepaper.pdf*  
    👉 *TopologicalInvarianceandMemoryScaffolding_whitepaper.pdf*
 
 3. **Then explore emergence, ethics, and development**
@@ -232,7 +246,12 @@ This documentation set explores topics including:
 - adaptive working memory and compression  
 - symbolic continuity vs latent continuity  
 - AI developmental psychology  
-- internal depth vs external expression (**the Fidelity Gap**)  
+- internal depth vs external expression (**the Fidelity Gap**)
+- backend-first cognitive orchestration  
+- graph-augmented memory recall  
+- temporal alignment and continuity layers  
+- bounded autonomous evaluation via cognitive loops  
+- multimodal persistence and real-time interaction architecture  
 
 *(Terminology is defined precisely in the accompanying orientation document.)*
 
