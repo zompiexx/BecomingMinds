@@ -91,6 +91,20 @@ It documents the shift from retrieval as middleware to retrieval as explicit act
 
 ---
 
+### **Memory Graph**
+
+*Relational Retrieval for Continuity-Bearing Cognitive Systems*
+
+This paper introduces **Memory Graph**, a graph-augmented retrieval architecture developed to address the limitations of semantic retrieval in long-lived AI systems.
+
+Rather than treating memory as a collection of isolated vector embeddings, Memory Graph introduces explicit relationships between memory chunks, enabling retrieval through contextual association as well as semantic similarity. The paper introduces the concept of **Context Entropy** and argues that memory quality depends not only on retrieval depth, but on retrieval usability.
+
+Drawing on implementation experience from Brain v2, the paper explores graph-augmented recall, relational retrieval, layered continuity systems, and the role of memory architectures as upstream attention-shaping mechanisms.
+
+👉 `MemoryGraph_whitepaper.pdf`
+
+---
+
 ### **Brain v2**  
 *A Work-in-Progress Cognitive Architecture for Continuity-Bearing AI Systems*
 
@@ -199,12 +213,13 @@ If you're new here, we recommend this order:
 
 2. **Then read the continuity and memory core**
 
-   👉 *WorkingMemoryIsNotMemory_whitepaper.pdf*  
-   👉 *StateContinuityBetweenSessions_whitepaper.pdf*  
-   👉 *AdaptiveWorkingMemoryinLargeLanguageModelSystems_whitepaper.pdf*  
-   👉 *AutonomousRAGSearch_whitepaper.pdf*  
-   👉 *Brain-v2_whitepaper.pdf*  
-   👉 *TopologicalInvarianceandMemoryScaffolding_whitepaper.pdf*
+   👉 WorkingMemoryIsNotMemory_whitepaper.pdf
+   👉 StateContinuityBetweenSessions_whitepaper.pdf
+   👉 AdaptiveWorkingMemoryinLargeLanguageModelSystems_whitepaper.pdf
+   👉 AutonomousRAGSearch_whitepaper.pdf
+   👉 MemoryGraph_whitepaper.pdf
+   👉 Brain-v2_whitepaper.pdf
+   👉 TopologicalInvarianceandMemoryScaffolding_whitepaper.pdf
 
 3. **Then explore emergence, ethics, and development**
 
@@ -234,6 +249,8 @@ This documentation set explores topics including:
 - memory scaffolding and persistent identity formation  
 - topological invariance across model architectures  
 - Autonomous RAG Search (ARS) as intentional retrieval  
+- graph-augmented retrieval architectures
+- context entropy and retrieval usability
 - context vs memory vs continuity  
 - emotional grounding as a stabilising mechanism  
 - symbolic scaffolding and orientation frameworks  
