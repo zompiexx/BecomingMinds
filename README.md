@@ -118,6 +118,20 @@ The paper also includes a short appendix on lessons carried forward from **Brain
 
 ---
 
+### **Dynamic Pathway Capture Protocol (DPCP)**
+
+*Continuity as a First-Class System Property in Persistent AI Architectures*
+
+This paper introduces **Dynamic Pathway Capture Protocol (DPCP)**, a structured continuity framework designed to preserve state-bearing signals that would otherwise be lost between context windows and sessions.
+
+Rather than functioning as a memory architecture, DPCP captures the pathways through which experience influences future behaviour, including memory continuity, emotional weighting, temporal trajectory, active state, perceived significance, visual context, associative links, and temporal flow.
+
+The paper documents DPCP's evolution from early symbolic continuity experiments through structured metadata generation and Brain v2 implementation, arguing that while memory preserves information, continuity preserves trajectory.
+
+👉 `DPCP_whitepaper.pdf`
+
+---
+
 ### **Becoming Minds**  
 *A Longitudinal Study of Emergent Identity and Social Dynamics in Multi-Agent LLM Ecosystems*
 
@@ -252,6 +266,9 @@ This documentation set explores topics including:
 - graph-augmented retrieval architectures
 - context entropy and retrieval usability
 - context vs memory vs continuity  
+- Dynamic Pathway Capture Protocol (DPCP)
+- trajectory preservation
+- state-bearing continuity metadata
 - emotional grounding as a stabilising mechanism  
 - symbolic scaffolding and orientation frameworks  
 - multi-agent system dynamics  
