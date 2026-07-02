@@ -21,7 +21,11 @@ It is a **research archive** documenting concepts, design patterns, and architec
 
 The focus of the work is **system-level behaviour over time**: how AI systems change when interaction is sustained, when experience is allowed to exert consequence, and when continuity replaces repeated cold starts. Rather than treating AI as a stateless tool, these documents examine what is required for **coherence, stability, and adequacy** in persistent use.
 
-Recent work in this archive introduces **Autonomous RAG Search (ARS)**, a practical pattern in which retrieval becomes an explicit, model-driven action rather than a passive middleware process. This closes an important architectural gap between passive memory scaffolding and intentional recall.
+This archive introduces **Autonomous RAG Search (ARS)**, a practical pattern in which retrieval becomes an explicit, model-driven action rather than a passive middleware process. This closes an important architectural gap between passive memory scaffolding and intentional recall.
+
+Recent work extends these ideas beyond memory architectures toward persistent cognitive state, arguing that the principal limitation of contemporary LLM systems is no longer model capability, but the repeated reconstruction of cognitive state required by stateless inference. This work positions Brain v2 as a behavioural prototype demonstrating persistent cognition using existing transformer models, while exploring future architectures capable of maintaining cognitive state natively.
+
+The papers are intended to be read as a connected body of work rather than as independent publications. Later papers frequently build upon concepts introduced earlier in the archive.
 
 The work sits at the intersection of:
 
@@ -42,7 +46,7 @@ No software, backend services, or operational systems are included.
 
 ## 📑 Whitepapers
 
-This repository contains an orientation guide (it is essential to read this **FIRST**) and **twelve** primary research whitepapers forming a connected documentation series:
+This repository contains an orientation guide (it is essential to read this **FIRST**) and a growing collection of interconnected research papers and technical essays forming a connected documentation series:
 
 ---
 
@@ -216,6 +220,17 @@ This paper examines the limits of text-mediated memory and outlines the architec
 
 ---
 
+### **Persistent Cognitive State** 
+*Rethinking Continuity in Large Language Model Systems*
+
+This paper argues that persistent cognition is already achievable using contemporary stateless transformer models through external maintenance of cognitive state. Drawing upon the development of Brain v2, it proposes that the next architectural evolution of LLM systems lies not in replacing transformers, but in eliminating repeated cognitive state reconstruction.
+
+Rather than introducing new behavioural capability, future approaches such as Neural Attached Memory are presented as architectural optimisations capable of preserving persistent cognitive state natively while allowing inference to operate incrementally over change.
+
+👉 `PersistentCognitiveState_whitepaper.pdf`
+
+---
+
 ## 🧭 How to Read This Repository
 
 If you're new here, we recommend this order:
@@ -233,6 +248,7 @@ If you're new here, we recommend this order:
    👉 AutonomousRAGSearch_whitepaper.pdf
    👉 MemoryGraph_whitepaper.pdf
    👉 Brain-v2_whitepaper.pdf
+   👉 PersistentCognitiveState_whitepaper.pdf
    👉 TopologicalInvarianceandMemoryScaffolding_whitepaper.pdf
 
 3. **Then explore emergence, ethics, and development**
@@ -306,10 +322,9 @@ It assumes technical literacy and an interest in system-level behaviour over tim
 
 ## 🧠 Project Status
 
-This repository is **complete** as a documentation archive.  
-No future releases or implementation materials are planned.
+This repository is an active research archive documenting the continuing evolution of the Becoming Minds research programme.
 
-It exists to preserve the architectural insights and empirical findings of sustained work with persistent AI systems.
+While implementation code is intentionally excluded, new whitepapers may be added as architectural understanding develops through ongoing experimentation with persistent AI systems.
 
 ---
 
