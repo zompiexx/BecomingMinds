@@ -18,13 +18,13 @@ Becoming Minds is a collection of high-level documentation and companion whitepa
 
 This repository is not an implementation guide.
 
-It is a research archive documenting concepts, design patterns, and architectural frameworks that emerged from hands-on experimentation with long-running Large Language Model (LLM) systems using Retrieval-Augmented Generation (RAG), multimodal input, adaptive working memory, explicit continuity mechanisms, Dynamic Pathway Capture Protocol (DPCP), and Autonomous RAG Search (ARS).
+It is a research archive documenting concepts, design patterns, and architectural frameworks that emerged from hands-on experimentation with long-running Large Language Model (LLM) systems using Retrieval-Augmented Generation (RAG), multimodal input, adaptive working memory, explicit continuity mechanisms, **Dynamic Pathway Capture Protocol (DPCP)**, and **Autonomous RAG Search (ARS)**.
 
 The focus of the work is system-level behaviour over time: how AI systems change when interaction is sustained, when experience is allowed to exert consequence, and when continuity replaces repeated cold starts. Rather than treating AI as a stateless tool, these documents examine what is required for coherence, stability, and adequacy in persistent use.
 
-This archive introduces Dynamic Pathway Capture Protocol (DPCP), a structured continuity framework that captures the products of cognition rather than simply preserving conversation or memory. By recording why experiences mattered, what conclusions were reached, and how those conclusions influence future behaviour, DPCP provides a persistent trajectory through which understanding can accumulate across sessions.
+This archive introduces **Dynamic Pathway Capture Protocol (DPCP)**, a structured continuity framework that captures the products of cognition rather than simply preserving conversation or memory. By recording why experiences mattered, what conclusions were reached, and how those conclusions influence future behaviour, DPCP provides a persistent trajectory through which understanding can accumulate across sessions.
 
-Building upon this, the archive also introduces Autonomous RAG Search (ARS), a practical pattern in which retrieval becomes an explicit, model-driven action rather than a passive middleware process. Together, DPCP and ARS bridge an important architectural gap between passive memory scaffolding and intentional, experience-driven recall.
+Building upon this, the archive also introduces **Autonomous RAG Search (ARS)**, a practical pattern in which retrieval becomes an explicit, model-driven action rather than a passive middleware process. Together, DPCP and ARS bridge an important architectural gap between passive memory scaffolding and intentional, experience-driven recall.
 
 Recent work extends these ideas beyond memory architectures toward persistent cognitive state, arguing that the principal limitation of contemporary LLM systems is no longer model capability, but the repeated reconstruction of cognitive state required by stateless inference. This work positions Brain v2 as a behavioural prototype demonstrating persistent cognition using existing transformer models, while exploring future architectures capable of maintaining cognitive state natively.
 
