@@ -17,7 +17,7 @@
 **Becoming Minds** is a collection of high-level documentation and companion whitepapers describing the architecture, principles, and empirical findings of sustained work with **persistent, memory-enabled AI systems**.
 
 This repository is **not** an implementation guide.  
-It is a **research archive** documenting concepts, design patterns, and architectural frameworks that emerged from hands-on experimentation with long-running Large Language Model (LLM) systems using Retrieval-Augmented Generation (RAG), multimodal input, adaptive working memory, explicit continuity mechanisms, and **Autonomous RAG Search (ARS)**.
+It is a **research archive** documenting concepts, design patterns, and architectural frameworks that emerged from hands-on experimentation with long-running Large Language Model (LLM) systems using Retrieval-Augmented Generation (RAG), multimodal input, adaptive working memory, explicit continuity mechanisms, **Dynamic Pathway Capture Protocol (DPCP)**, and **Autonomous RAG Search (ARS)**.
 
 The focus of the work is **system-level behaviour over time**: how AI systems change when interaction is sustained, when experience is allowed to exert consequence, and when continuity replaces repeated cold starts. Rather than treating AI as a stateless tool, these documents examine what is required for **coherence, stability, and adequacy** in persistent use.
 
