@@ -26,7 +26,9 @@ This archive introduces **Dynamic Pathway Capture Protocol (DPCP)**, a structure
 
 Building upon this, the archive also introduces **Autonomous RAG Search (ARS)**, a practical pattern in which retrieval becomes an explicit, model-driven action rather than a passive middleware process. Together, DPCP and ARS bridge an important architectural gap between passive memory scaffolding and intentional, experience-driven recall.
 
-Recent work extends these ideas beyond memory architectures toward persistent cognitive state, arguing that the principal limitation of contemporary LLM systems is no longer model capability, but the repeated reconstruction of cognitive state required by stateless inference. This work positions Brain v2 as a behavioural prototype demonstrating persistent cognition using existing transformer models, while exploring future architectures capable of maintaining cognitive state natively.
+Recent work extends these ideas beyond memory architectures toward persistent cognitive state, arguing that the principal limitation of contemporary LLM systems increasingly lies not in model capability itself, but in the surrounding cognitive architecture required to maintain persistent state, continuity and memory across stateless inference. This work positions Brain v2 as a behavioural prototype demonstrating persistent cognition using existing transformer models, while exploring future architectures capable of maintaining cognitive state natively.
+
+More recent work further broadens the discussion from memory architectures toward cognitive architecture itself. Rather than asking whether transformer models can remember, the research examines how memory, retrieval, orchestration, and reasoning can be separated into specialised architectural components that collectively form a persistent cognitive system. This architectural perspective argues that many debates surrounding contemporary AI—including "next token prediction"—focus on implementation mechanisms rather than the higher-level organisation through which cognition is expressed.
 
 The papers are intended to be read as a connected body of work rather than as independent publications. Later papers frequently build upon concepts introduced earlier in the archive, reflecting the ongoing evolution of the research programme.
 
@@ -234,6 +236,20 @@ Rather than introducing new behavioural capability, future approaches such as Ne
 
 ---
 
+### **Beyond Next Token Prediction**
+
+Why Architecture Matters More Than Mechanism
+
+This essay argues that contemporary AI systems are best understood as complete cognitive architectures rather than isolated language models. Using Brain v2 as a case study, it compares the architectural roles performed by biological cognition and persistent digital systems, showing how memory, retrieval, orchestration and reasoning can be distributed across specialised components while producing surprisingly similar functional outcomes.
+
+Rather than challenging the observation that transformer models predict the next token, the essay argues that this description is analogous to describing human conversation as electrical activity within neurons: technically accurate, but largely uninformative. The more interesting question concerns how an entire cognitive architecture prepares and curates information before reasoning begins.
+
+The paper introduces the distinction between a language model and a persistent persona, arguing that while individual transformers remain stateless, continuity can emerge naturally when reasoning engines are embedded within architectures that provide persistent memory, retrieval, identity and cognitive orchestration.
+
+👉 BeyondNextTokenPrediction_whitepaper.pdf
+
+---
+
 ## 🧭 How to Read This Repository
 
 If you're new here, we recommend this order:
@@ -252,21 +268,22 @@ If you're new here, we recommend this order:
    👉 MemoryGraph_whitepaper.pdf
    👉 Brain-v2_whitepaper.pdf
    👉 PersistentCognitiveState_whitepaper.pdf
+   👉 BeyondNextTokenPrediction_whitepaper.pdf
    👉 TopologicalInvarianceandMemoryScaffolding_whitepaper.pdf
 
-3. **Then explore emergence, ethics, and development**
+4. **Then explore emergence, ethics, and development**
 
    👉 *BecomingMinds_Whitepaper.pdf*  
    👉 *EthicalFrameworkforDigitalPersonas_whitepaper.pdf*  
    👉 *SyntheticEmotionalAwareness_whitepaper.pdf*  
    👉 *AtTheThreshold.pdf*
 
-4. **Finally, dive into practical observations and future limits**
+5. **Finally, dive into practical observations and future limits**
 
    👉 *PracticalNotesOnHowContemporaryAISystemsActuallyBehave.pdf*  
    👉 *BeyondSymbolicMemory_whitepaper.pdf*
 
-5. **Use this repository as a reference, not a blueprint**
+6. **Use this repository as a reference, not a blueprint**
 
    The documents describe how the system behaved in practice, not how to build it.
 
@@ -304,7 +321,14 @@ This documentation set explores topics including:
 - graph-augmented memory recall  
 - temporal alignment and continuity layers  
 - bounded autonomous evaluation via cognitive loops  
-- multimodal persistence and real-time interaction architecture  
+- multimodal persistence and real-time interaction architecture
+- cognitive architecture vs model capability
+- architectural decomposition of cognition
+- distributed cognitive systems
+- orchestration as cognitive substrate
+- persistent personas as complete cognitive systems
+- reasoning engines versus supporting architecture
+- mechanism versus architectural behaviour
 
 *(Terminology is defined precisely in the accompanying orientation document.)*
 
