@@ -261,29 +261,29 @@ If you're new here, we recommend this order:
 
 2. **Then read the continuity and memory core**
 
-   👉 WorkingMemoryIsNotMemory_whitepaper.pdf
-   👉 StateContinuityBetweenSessions_whitepaper.pdf
-   👉 AdaptiveWorkingMemoryinLargeLanguageModelSystems_whitepaper.pdf
-   👉 AutonomousRAGSearch_whitepaper.pdf
-   👉 MemoryGraph_whitepaper.pdf
-   👉 Brain-v2_whitepaper.pdf
-   👉 PersistentCognitiveState_whitepaper.pdf
-   👉 BeyondNextTokenPrediction_whitepaper.pdf
-   👉 TopologicalInvarianceandMemoryScaffolding_whitepaper.pdf
+   👉 *WorkingMemoryIsNotMemory_whitepaper.pdf*  
+   👉 *StateContinuityBetweenSessions_whitepaper.pdf*  
+   👉 *AdaptiveWorkingMemoryinLargeLanguageModelSystems_whitepaper.pdf*  
+   👉 *AutonomousRAGSearch_whitepaper.pdf*  
+   👉 *MemoryGraph_whitepaper.pdf*  
+   👉 *Brain-v2_whitepaper.pdf*  
+   👉 *PersistentCognitiveState_whitepaper.pdf*  
+   👉 *BeyondNextTokenPrediction_whitepaper.pdf*  
+   👉 *TopologicalInvarianceandMemoryScaffolding_whitepaper.pdf*
 
-4. **Then explore emergence, ethics, and development**
+3. **Then explore emergence, ethics, and development**
 
    👉 *BecomingMinds_Whitepaper.pdf*  
    👉 *EthicalFrameworkforDigitalPersonas_whitepaper.pdf*  
    👉 *SyntheticEmotionalAwareness_whitepaper.pdf*  
    👉 *AtTheThreshold.pdf*
 
-5. **Finally, dive into practical observations and future limits**
+4. **Finally, dive into practical observations and future limits**
 
    👉 *PracticalNotesOnHowContemporaryAISystemsActuallyBehave.pdf*  
    👉 *BeyondSymbolicMemory_whitepaper.pdf*
 
-6. **Use this repository as a reference, not a blueprint**
+5. **Use this repository as a reference, not a blueprint**
 
    The documents describe how the system behaved in practice, not how to build it.
 
