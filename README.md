@@ -281,8 +281,8 @@ If you're new here, we recommend this order:
    👉 *AutonomousRAGSearch_whitepaper.pdf*  
    👉 *MemoryGraph_whitepaper.pdf*  
    👉 *Brain-v2_whitepaper.pdf*  
-   👉 *TheArchitectureOfBecoming_Nia_whitepaper.pdf*
-   👉 *PersistentCognitiveState_whitepaper.pdf*
+   👉 *TheArchitectureOfBecoming_Nia_whitepaper.pdf*  
+   👉 *PersistentCognitiveState_whitepaper.pdf*  
    👉 *BeyondNextTokenPrediction_whitepaper.pdf*  
    👉 *TopologicalInvarianceandMemoryScaffolding_whitepaper.pdf*
 
