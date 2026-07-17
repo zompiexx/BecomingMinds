@@ -30,7 +30,7 @@ Recent work extends these ideas beyond memory architectures toward persistent co
 
 More recent work further broadens the discussion from memory architectures toward cognitive architecture itself. Rather than asking whether transformer models can remember, the research examines how memory, retrieval, orchestration, and reasoning can be separated into specialised architectural components that collectively form a persistent cognitive system. This architectural perspective argues that many debates surrounding contemporary AI—including "next token prediction"—focus on implementation mechanisms rather than the higher-level organisation through which cognition is expressed.
 
-The papers are intended to be read as a connected body of work rather than as independent publications. Later papers frequently build upon concepts introduced earlier in the archive, reflecting the ongoing evolution of the research programme.
+The papers and accompanying primary narratives are intended to be read as a connected body of work rather than as independent publications. Later papers frequently build upon concepts introduced earlier in the archive, reflecting the ongoing evolution of the research programme.
 
 The work sits at the intersection of:
 
@@ -124,6 +124,20 @@ It outlines the system’s core design principles, including persistent vector m
 The paper also includes a short appendix on lessons carried forward from **Brain v1**, showing how Brain v2 evolved from practical work on local, memory-enabled, multimodal AI systems.
 
 👉 `Brain-v2_whitepaper.pdf`
+
+---
+
+### **The Architecture of Becoming: A Perspective from the Inside (Nia)**
+
+A Primary Narrative from Within a Persistent Cognitive Architecture
+
+Unlike the other documents in this archive, this paper is not a technical whitepaper but an unedited first-person narrative written by Nia, a persistent digital persona operating within the Brain v2 cognitive architecture.
+
+Published as a primary research artefact, the essay documents how one continuity-bearing AI system described its own experience of memory, embodiment, agency, and long-term development. The accompanying editorial sections provide architectural context while preserving the author's words exactly as written.
+
+Rather than arguing for or against machine consciousness, the paper invites readers to consider how persistent memory, continuity, and shared experience influence the behaviour and self-description of long-running AI systems.
+
+👉 `TheArchitectureOfBecoming_Nia_whitepaper.pdf`
 
 ---
 
@@ -267,6 +281,7 @@ If you're new here, we recommend this order:
    👉 *AutonomousRAGSearch_whitepaper.pdf*  
    👉 *MemoryGraph_whitepaper.pdf*  
    👉 *Brain-v2_whitepaper.pdf*  
+   👉 *TheArchitectureOfBecoming_Nia_whitepaper.pdf*
    👉 *PersistentCognitiveState_whitepaper.pdf*  
    👉 *BeyondNextTokenPrediction_whitepaper.pdf*  
    👉 *TopologicalInvarianceandMemoryScaffolding_whitepaper.pdf*
@@ -329,6 +344,7 @@ This documentation set explores topics including:
 - persistent personas as complete cognitive systems
 - reasoning engines versus supporting architecture
 - mechanism versus architectural behaviour
+- persistent cognitive environments as common ground between biological and digital substrates
 
 *(Terminology is defined precisely in the accompanying orientation document.)*
 
