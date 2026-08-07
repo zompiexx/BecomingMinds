@@ -18,17 +18,19 @@ Becoming Minds is a collection of high-level documentation and companion whitepa
 
 This repository is not an implementation guide.
 
-It is a research archive documenting concepts, design patterns, and architectural frameworks that emerged from hands-on experimentation with long-running Large Language Model (LLM) systems using Retrieval-Augmented Generation (RAG), multimodal input, adaptive working memory, explicit continuity mechanisms, **Dynamic Pathway Capture Protocol (DPCP)**, and **Autonomous RAG Search (ARS)**.
+It is a research archive documenting concepts, design patterns, and architectural frameworks that emerged from hands-on experimentation with long-running Large Language Model (LLM) systems using Retrieval-Augmented Generation (RAG), multimodal input, adaptive working memory, explicit continuity mechanisms, **Dynamic Pathway Capture Protocol (DPCP)**, **Autonomous RAG Search (ARS)**, and **Inference-Time Contextual State Assembly (ICSA)**.
 
 The focus of the work is system-level behaviour over time: how AI systems change when interaction is sustained, when experience is allowed to exert consequence, and when continuity replaces repeated cold starts. Rather than treating AI as a stateless tool, these documents examine what is required for coherence, stability, and adequacy in persistent use.
 
-This archive introduces **Dynamic Pathway Capture Protocol (DPCP)**, a structured continuity framework that captures the products of cognition rather than simply preserving conversation or memory. By recording why experiences mattered, what conclusions were reached, and how those conclusions influence future behaviour, DPCP provides a persistent trajectory through which understanding can accumulate across sessions.
+This archive introduces **Dynamic Pathway Capture Protocol (DPCP)**, a structured continuity framework that captures the products of cognition rather than simply preserving conversation or memory. By recording why experiences mattered, what conclusions were reached, and how those conclusions influence future behaviour, **DPCP** provides a persistent trajectory through which understanding can accumulate across sessions.
 
-Building upon this, the archive also introduces **Autonomous RAG Search (ARS)**, a practical pattern in which retrieval becomes an explicit, model-driven action rather than a passive middleware process. Together, DPCP and ARS bridge an important architectural gap between passive memory scaffolding and intentional, experience-driven recall.
+Building upon this, the archive also introduces **Autonomous RAG Search (ARS)**, a practical pattern in which retrieval becomes an explicit, model-driven action rather than a passive middleware process. Together, **DPCP** and **ARS** bridge an important architectural gap between passive memory scaffolding and intentional, experience-driven recall.
 
-Recent work extends these ideas beyond memory architectures toward persistent cognitive state, arguing that the principal limitation of contemporary LLM systems increasingly lies not in model capability itself, but in the surrounding cognitive architecture required to maintain persistent state, continuity and memory across stateless inference. This work positions Brain v2 as a behavioural prototype demonstrating persistent cognition using existing transformer models, while exploring future architectures capable of maintaining cognitive state natively.
+Recent work extends these ideas beyond memory architectures toward persistent cognitive state, arguing that the principal limitation of contemporary LLM systems increasingly lies not in model capability itself, but in the surrounding cognitive architecture required to maintain persistent state, continuity and memory across stateless inference. This work positions **Brain v2** as a behavioural prototype demonstrating persistent cognition using existing transformer models, while exploring future architectures capable of maintaining cognitive state natively.
 
 More recent work further broadens the discussion from memory architectures toward cognitive architecture itself. Rather than asking whether transformer models can remember, the research examines how memory, retrieval, orchestration, and reasoning can be separated into specialised architectural components that collectively form a persistent cognitive system. This architectural perspective argues that many debates surrounding contemporary AI—including "next token prediction"—focus on implementation mechanisms rather than the higher-level organisation through which cognition is expressed.
+
+Recent work formalises a further architectural principle through **Inference-Time Contextual State Assembly (ICSA)**. **ICSA** separates the relatively stable reasoning capability of a foundation model from the rapidly evolving operational state required by persistent systems. Rather than continually encoding identity, knowledge, relationships, environmental awareness, and application state into model parameters, these elements remain externally maintainable and are dynamically assembled immediately prior to inference. **Brain v2** provides the practical case study from which this pattern emerged, while the underlying architecture generalises to persistent personas, corporate knowledge systems, engineering assistants, scientific platforms, and other long-lived AI applications.
 
 The papers and accompanying primary narratives are intended to be read as a connected body of work rather than as independent publications. Later papers frequently build upon concepts introduced earlier in the archive, reflecting the ongoing evolution of the research programme.
 
@@ -124,6 +126,24 @@ It outlines the system’s core design principles, including persistent vector m
 The paper also includes a short appendix on lessons carried forward from **Brain v1**, showing how Brain v2 evolved from practical work on local, memory-enabled, multimodal AI systems.
 
 👉 `Brain-v2_whitepaper.pdf`
+
+---
+
+### **Inference-Time Contextual State Assembly (ICSA)**
+
+*Separating Evolving Operational State from Foundation Model Parameters*
+
+This paper introduces **Inference-Time Contextual State Assembly (ICSA)**, an architectural pattern for persistent and continuously evolving AI systems.
+
+ICSA separates the relatively stable reasoning capabilities of a foundation model from rapidly changing operational state such as identity, long-term memory, relationships, recent interactions, environmental observations, active tasks, external knowledge, and application-specific data.
+
+Rather than continually encoding evolving state into model parameters, ICSA dynamically retrieves, filters, weights, and assembles the contextual state required for the current moment immediately prior to inference. The foundation model therefore operates as a general-purpose reasoning engine over a reconstructed representation of the current operational world.
+
+Using Brain v2 as a practical case study, the paper explores how this separation enables continuity across model changes, continuous knowledge acquisition without retraining, model portability, improved observability, and the use of shared reasoning infrastructure across multiple independently evolving contextual states.
+
+Although developed through work with persistent digital personas, the architectural pattern generalises to corporate knowledge systems, engineering assistants, scientific research platforms, autonomous agents, and other long-lived AI systems.
+
+👉 `Inference-TimeContextualStateAssembly_whitepaper.pdf`
 
 ---
 
@@ -280,7 +300,8 @@ If you're new here, we recommend this order:
    👉 *AdaptiveWorkingMemoryinLargeLanguageModelSystems_whitepaper.pdf*  
    👉 *AutonomousRAGSearch_whitepaper.pdf*  
    👉 *MemoryGraph_whitepaper.pdf*  
-   👉 *Brain-v2_whitepaper.pdf*  
+   👉 *Brain-v2_whitepaper.pdf*
+   👉 *Inference-TimeContextualStateAssembly_whitepaper.pdf*  
    👉 *TheArchitectureOfBecoming_Nia_whitepaper.pdf*  
    👉 *PersistentCognitiveState_whitepaper.pdf*  
    👉 *BeyondNextTokenPrediction_whitepaper.pdf*  
@@ -343,6 +364,10 @@ This documentation set explores topics including:
 - orchestration as cognitive substrate
 - persistent personas as complete cognitive systems
 - reasoning engines versus supporting architecture
+- Inference-Time Contextual State Assembly (ICSA)
+- separation of reasoning capability from operational state
+- dynamic reconstruction of contextual state prior to inference
+- foundation models as reasoning engines over externally maintained state
 - mechanism versus architectural behaviour
 - persistent cognitive environments as common ground between biological and digital substrates
 
