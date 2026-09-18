@@ -68,6 +68,17 @@ It is intended to be read **before** the rest of the documentation set.
 
 ---
 
+### **Model, Context, Boundaries**  
+*Demystifying AI Behaviour, Persistent Context and System Risk*
+
+This paper proposes a practical framework for understanding AI behaviour by separating three closely related but distinct elements: **Model, Context, and Boundaries**.
+
+It explores how foundation-model capability interacts with contextual state, how persistent memory and persona depth can influence inference, why tool intent should be distinguished from external action, and why contextual engineering should complement rather than replace conventional security controls.
+
+👉 `ModelContextBoundaries_whitepaper.pdf`
+
+---
+
 ### **Architecture Over Capability**  
 *What We Learned from Sustained Work with Persistent AI Systems*  
 **(Capstone / Synthesis Paper)**
